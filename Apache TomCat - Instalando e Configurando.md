@@ -4,7 +4,7 @@ Apache Tomcat é um servidor web responsável por rodar códigos java para web, 
 
 Com ele é possível portar toda versatilidade e capacidade do java *server pages*, criando paginas web dinâmicas e implementando sistemas de alta performance.
 
-<img src="/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/ADS/IDSA-Aulas/2020/tomcat.png" style="zoom:80%;" />
+<img src="img/tomcat.png" style="zoom:80%;" />
 
 # Instalando o Java
 
