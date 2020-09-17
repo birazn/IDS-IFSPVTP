@@ -30,7 +30,7 @@ Crie um diretório para a instalação, nesse procedimento iremos usar um pacote
 sudo mkdir /opt/tomcat
 ```
 
-Baixe o pacote mais atual, **<u>tar.gz</u>** do [site Tomcat](https://tomcat.apache.org/download-90.cgi#9.0.38), e use junto ao comando, a seguir.
+Baixe o pacote mais atual, **<u>tar.gz</u>** do <a href="https://tomcat.apache.org/download-90.cgi#9.0.38" target="_blank">site Tomcat</a>, e use junto ao comando, a seguir.
 
 # Download Tomcat
 
