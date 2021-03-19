@@ -1,6 +1,6 @@
 # Apache TomCat - Instalando e Configurando
 
-Apache Tomcat é um servidor web responsável por rodar códigos java para web, os arquivos .jsp
+Apache Tomcat é um servidor web responsável por rodar códigos java para web, os famosos arquivos JSP.
 
 Com ele é possível portar toda versatilidade e capacidade do java *server pages*, criando paginas web dinâmicas e implementando sistemas de alta performance.
 
