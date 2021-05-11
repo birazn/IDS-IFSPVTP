@@ -6,7 +6,7 @@ Com ele é possível portar toda versatilidade e capacidade do java *server page
 
 <img src="https://github.com/birazn/IDS2020/blob/master/img/tomcat.png" style="zoom:80%;" />
 
-# Instalando o Java - Teste
+# Instalando o Java
 
 Inicialmente é necessário fazer a instalação do java. No Linux existe uma implementação *opensourse* do JDK e JRE.
 
