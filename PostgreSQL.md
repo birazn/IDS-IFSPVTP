@@ -1,6 +1,6 @@
 # Instalando e Configurando o PostgreSQL
 
-<img src="https://github.com/birazn/IDS2020/blob/master/img/postgresql.png"  />
+<img src="https://github.com/birazn/IDS-IFSPVTP/blob/master/img/postgresql.png"  />
 
 Fazer a instalação usando o comando abaixo, verifiquem a versão do repositório.
 

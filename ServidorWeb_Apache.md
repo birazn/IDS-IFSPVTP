@@ -1,4 +1,7 @@
 # Servidor Web – Habilitando a Navegação
+
+<img src="https://github.com/birazn/IDS-IFSPVTP/blob/master/img/apache-logo-3.png" style="zoom:80%;" />
+
 ## Opção de Editor de texto
 
 Vim, é uma opção ao editor em modo texto nano que tem as bases do Vi com algumas atualizações.
@@ -70,5 +73,7 @@ $ sudo vim /etc/apache2/apache2.conf
 
 ## Dúvidas?
 
-[@birazn](https://www.instragram.com/birazn)
+[@birazn](https://www.instagram.com/birazn)
+
+[Canal YouTube](https://www.youtube.com/birazn)
 
