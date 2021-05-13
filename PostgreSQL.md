@@ -84,3 +84,12 @@ host 	all 	all 	192.168.1.0/24 	md5
 #### Abra o pgadmin ou software de preferência e faça a conexão usando as credenciais do servidor configurado. 
 
 #### Não esqueçam de liberar a porta no grupo de segurança ou na configuração de rede da sua Instância ou VM.
+
+
+
+## Dúvidas?
+
+[@birazn](https://www.instagram.com/birazn)
+
+[Canal YouTube](https://www.youtube.com/birazn)
+
