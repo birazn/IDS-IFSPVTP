@@ -1,6 +1,6 @@
 # Servidor Web – Habilitando a Navegação
 
-<img src="https://github.com/birazn/IDS-IFSPVTP/blob/master/img/apache-logo-3.png" />
+<img src="https://github.com/birazn/IDS-IFSPVTP/blob/master/img/apache-logo-3.png" width="10%"/>
 
 ## Opção de Editor de texto
 
