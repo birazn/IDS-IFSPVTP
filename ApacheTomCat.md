@@ -198,9 +198,7 @@ Inclua caminho completo
 ```
 
 ### Não esqueça de liberar a porta padrão do Tomcar 8080
-
-
-
+<hr>
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
