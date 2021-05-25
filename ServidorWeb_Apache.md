@@ -68,9 +68,7 @@ Para fazer configurações mais finas dentro do apache, o arquivo utilizado é:
 ```shell
 $ sudo vim /etc/apache2/apache2.conf
 ```
-
-
-
+<hr>
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
