@@ -4,7 +4,7 @@ Apache Tomcat é um servidor web responsável por rodar códigos java para web, 
 
 Com ele é possível portar toda versatilidade e capacidade do java *server pages*, criando paginas web dinâmicas e implementando sistemas de alta performance.
 
-<img src="https://github.com/birazn/IDS-IFSPVTP/blob/master/img/tomcat.png" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/birazn/IDS-IFSPVTP/master/img/tomcat.png" style="zoom:80%;" />
 
 # Instalando o Java
 
@@ -12,13 +12,13 @@ Inicialmente é necessário fazer a instalação do java. No Linux existe uma im
 
 No comando será instalado a ultima versão do java, neste momento a versão 11
 
-```
+```bash
 sudo apt install default-jdk default-jre
 ```
 
 Caso queira instalar a versão 8 utilize.
 
-```
+```bash
 sudo apt install openjdk-8-jdk openjdk-8-jre
 ```
 
@@ -26,20 +26,20 @@ sudo apt install openjdk-8-jdk openjdk-8-jre
 
 Crie um diretório para a instalação, nesse procedimento iremos usar um pacote, para ter acesso ao painel de gerenciamento.
 
-```
+```bash
 sudo mkdir /opt/tomcat
 ```
 
-Baixe o pacote mais atual, **<u>tar.gz</u>** do <a href="https://tomcat.apache.org/download-90.cgi#9.0.38" target="_blank">site Tomcat</a>, e use junto ao comando, a seguir.
+Baixe o pacote mais atual, **<u>tar.gz</u>** do <a href="https://tomcat.apache.org/download-90.cgi" target="_blank">site Tomcat</a>, e use junto ao comando, a seguir.
 
 # Download Tomcat
 
 Acesse a pasta temporária do sistema.
-```
+```bash
 cd /tmp
-curl -O https://downloads.apache.org/tomcat/tomcat-9/v9.0.38/bin/apache-tomcat-9.0.38.tar.gz
+curl -O https://downloads.apache.org/tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.tar.gz
 cd /opt/tomcat
-sudo tar xzvf /tmp/apache-tomcat-9.0.38.tar.gz -C /opt/tomcat --strip-components=1
+sudo tar xzvf /tmp/apache-tomcat-9.0.50.tar.gz -C /opt/tomcat --strip-components=1
 ```
 
 
@@ -49,7 +49,7 @@ sudo tar xzvf /tmp/apache-tomcat-9.0.38.tar.gz -C /opt/tomcat --strip-components
 É importante para a segurança, ter um usuário especifico para usar o tomcat.
 Crie um grupo e usuário tomcat
 
-```
+```bash
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 sudo chgrp -R tomcat /opt/tomcat
@@ -62,14 +62,14 @@ sudo chown -R tomcat webapps/ work/ temp/ logs/
 
 É necessário criar um novo arquivo único para executar o Tomcat como um serviço.
 
-```
+```bash
 sudo vim /etc/systemd/system/tomcat.service
 ```
 
 Inclua o texto abaixo.
 
 
-```
+```shell
 [Unit]
 Description=Apache Tomcat Web Application Container
 After=network.target
@@ -100,13 +100,13 @@ WantedBy=multi-user.target
 
 Em seguida, notifique o sistema que você criou um novo arquivo executando a seguinte linha de comando:
 
-```
+```bash
 sudo systemctl daemon-reload
 ```
 
 Os seguintes comandos vão permitir que você execute o serviço Tomcat:
 
-```
+```bash
 sudo chown -R tomcat webapps/ work/ temp/ logs/
 sudo su
 cd /opt/tomcat/bin
@@ -119,19 +119,19 @@ cd /opt/tomcat/bin
 
 O comando abaixo irá adicionar um login no seu usuário Tomcat, para isso edite o arquivo **tomcat-users.xml**:
 
-```
+```bash
 sudo vim /opt/tomcat/conf/tomcat-users.xml
 ```
 
 O comando abaixo irá adicionar um login no seu usuário Tomcat, para isso edite o arquivo tomcat-users.xml.
 
-```
+```bash
 sudo vim /opt/tomcat/conf/tomcat-users.xml
 ```
 
 Adicione as regras, dentro da tag **\<tomcat-users>**
 
-```
+```shell
 <role rolename="manager"/>
 <role rolename="admin"/>
 <role rolename="admin-script"/>
@@ -155,14 +155,14 @@ Para isso, crie ou edite o arquivo  e cole o conteúdo a seguir.
 >
 > Para liberar o acesso somente a um endereço específico ou rede, substitua o conteúdo entre aspas pelo endereço desejado
 
-```
+```bash
 sudo su 
 vim /opt/tomcat/conf/Catalina/localhost/manager.xml
 ```
 
 Cole o código abaixo.
 
-```
+```shell
 <Context privileged="true" antiResourceLocking="false" docBase="$CATALINA_HOME/webapps/manager">
 <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
 </Context>
@@ -170,14 +170,14 @@ Cole o código abaixo.
 
 Libere o acesso a Role host-manager. Para isso, altere o arquivo. Assim como no passo anterior, será necessário definir o  **allow**:
 
-```
+```bash
 sudo su 
 vim /opt/tomcat/webapps/host-manager/META-INF/context.xml
 ```
 
 Cole ou somente altere código abaixo, conforme necessário.
 
-```
+```shell
 <Context antiResourceLocking="false" privileged="true" >
 <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
 </Context>
@@ -187,19 +187,21 @@ Cole ou somente altere código abaixo, conforme necessário.
 
 Edite o arquivo, /etc/rc.local e inclua o caminho do startup.sh
 
-```
+```shell
 sudo vim /etc/rc.local
 ```
 
 Inclua caminho completo
 
-```
+```shell
 /opt/tomcat/bin/startup.sh
 ```
 
 ### Não esqueça de liberar a porta padrão do Tomcar 8080
 <hr>
-## Dúvidas?
+
+### Dúvidas?
+
 
 [@birazn](https://www.instagram.com/birazn)
 
