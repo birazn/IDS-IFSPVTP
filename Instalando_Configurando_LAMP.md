@@ -83,7 +83,7 @@ FLUSH PRIVILEGES;
 **E a segunda e recomendada é criar um usuário administrativo com acesso a todos os bancos de dados, sem alterar o método de autenticação do root:** <mark>(indicada)</mark> **dica '13579'**
 
 ```sql
-GRANT ALL PRIVILEGES ON . TO 'ids'@'localhost' IDENTIFIED BY 'senha_da_nasa';
+GRANT ALL PRIVILEGES ON *.* TO 'ids'@'localhost' IDENTIFIED BY 'senha_da_nasa';
 ```
 
 Ainda dentro do terminal MySQL, vamos criar um banco de dados e conceder acesso de usuários para utilizar as bases.
