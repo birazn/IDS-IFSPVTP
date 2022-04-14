@@ -2,7 +2,6 @@
 
 É possível oferecer a cada utilizador a possibilidade de criar páginas Internet pessoais.
 
-
 Uma vez concluída a instalação do **Apache2**, a configuração do suporte para páginas pessoais consiste na ativação do módulo ***userdir*** do servidor apache2.
 
 ```bash
@@ -13,14 +12,9 @@ $ sudo a2enmod userdir
 
 A execução de scripts php está desativada nas páginas pessoais. Para ativar, é necessário comentar a linha:
 
-
-
 **php_admin_flag engine Off**
 
-
 no arquivo <mark>/etc/apache2/mods-available/php7.X.conf</mark> (Verificar a versão do PHP instalado)
-
-
 
 ## A utilização
 
@@ -60,4 +54,13 @@ Coloque o código para efetuar o teste.
     <p>Bem Vindo!</p>
    </body>
 </html>
+```
+
+## Automatizando processo para futuros usuários
+
+Para que o diretório **public_html** seja criado automaticamente quando for criado um novo usuário, é adicionada a entrada em **/etc/skel**, com direitos de acesso exclusivos para próprio utilizador:
+
+```bash
+$ sudo mkdir /etc/skel/public_html 
+$ sudo chmod 0700 /etc/skel/public_html
 ```
