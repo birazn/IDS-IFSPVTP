@@ -47,6 +47,7 @@ Caso **não queira** usar a validação, basta pressionar **ENTER**
 #### Continuando sem usar a validação
 
 No próximo passo, você poderá alterar a senha do usuário root.
+
 - Digite a senha (não esquecer) **dica '13579'**
 
 Nas próximas questões você pode responder: (ou mude como preferir)
