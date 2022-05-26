@@ -30,19 +30,18 @@ Crie um diretório para a instalação, nesse procedimento iremos usar um pacote
 sudo mkdir /opt/tomcat
 ```
 
-Baixe o pacote mais atual, **<u>tar.gz</u>** do <a href="https://tomcat.apache.org/download-90.cgi" target="_blank">site Tomcat</a>, e use junto ao comando, a seguir.
+Baixe o pacote mais atual, **<u>tar.gz</u>** do <a href="https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.21/bin/apache-tomcat-10.0.21.tar.gz" target="_blank">site Tomcat</a>, e use junto ao comando, a seguir.
 
 # Download Tomcat
 
 Acesse a pasta temporária do sistema.
+
 ```bash
 cd /tmp
-curl -O https://downloads.apache.org/tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.tar.gz
+curl -O https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.21/bin/apache-tomcat-10.0.21.tar.gz
 cd /opt/tomcat
 sudo tar xzvf /tmp/apache-tomcat-9.0.50.tar.gz -C /opt/tomcat --strip-components=1
 ```
-
-
 
 # Usuário Tomcat e permissões de pasta
 
@@ -67,7 +66,6 @@ sudo vim /etc/systemd/system/tomcat.service
 ```
 
 Inclua o texto abaixo.
-
 
 ```shell
 [Unit]
@@ -113,8 +111,6 @@ cd /opt/tomcat/bin
 ./startup.sh run
 ```
 
-
-
 # Painel Web de Gerenciamento Tomcat
 
 O comando abaixo irá adicionar um login no seu usuário Tomcat, para isso edite o arquivo **tomcat-users.xml**:
@@ -143,16 +139,14 @@ Adicione as regras, dentro da tag **\<tomcat-users>**
 <user username="admin" password="SuaSenha" roles="admin,admin-gui,manager,manager-gui,manager-status,manager-script,manager-xml,admin-script"/>
 ```
 
-
-
 # Liberar acesso Tomcat Manager
 
 Para isso, crie ou edite o arquivo  e cole o conteúdo a seguir.
 
 > NOTA: O campo “**allow**” define quais os endereços terão acesso à conexão remota ao Tomcat Manager.
->
+> 
 > No exemplo abaixo, estão liberados todos os endereços.
->
+> 
 > Para liberar o acesso somente a um endereço específico ou rede, substitua o conteúdo entre aspas pelo endereço desejado
 
 ```bash
@@ -198,12 +192,11 @@ Inclua caminho completo
 ```
 
 ### Não esqueça de liberar a porta padrão do Tomcar 8080
+
 <hr>
 
 ### Dúvidas?
 
-
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
-
