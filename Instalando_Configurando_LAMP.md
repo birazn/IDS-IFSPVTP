@@ -23,6 +23,7 @@ $ sudo apt install mysql-server
 
 ```bash
 $ sudo service mysql status # forma convencional
+# ou
 $ sudo systemctl status mysql # forma mais atual
 ```
 
