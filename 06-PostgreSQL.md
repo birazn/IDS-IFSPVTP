@@ -5,7 +5,7 @@
 Fazer a instalação usando o comando abaixo, **verifiquem a versão** do repositório.
 
 ```shell
-sudo apt install postgresql-12 -y
+sudo apt install postgresql-14 -y
 ```
 
 ## Habilitando usuário no PostgreSQL
@@ -20,7 +20,7 @@ alter user postgres with encrypted password 'senha_da_nasa';
 #### Abra o arquivo
 
 ```shell
-sudo nano /etc/postgresql/12/main/postgresql.conf
+sudo vim /etc/postgresql/14/main/postgresql.conf
 ```
 
 **Altere a linha**
@@ -32,7 +32,7 @@ sudo nano /etc/postgresql/12/main/postgresql.conf
 **Para**
 
 ```shell
-listen_addresses = '*'                            # what IP address(es) to listen on
+listen_addresses = '*'                           # what IP address(es) to listen on
 ```
 
 Retire o comentário e troque o <u>'localhost'</u> por <u>'*'</u>
@@ -44,24 +44,24 @@ Salve e feche o arquivo
 #### Abra o arquivo
 
 ```shell
-sudo nano /etc/postgresql/12/main/pg_hba.conf
+sudo vim /etc/postgresql/14/main/pg_hba.conf
 ```
 
 **Que por padrão vem**
 
 ```shell
 # "local" is for Unix domain socket connections only
-local    all        all        trust # ou peer
+local    all        all        peer
 ```
 
 ```shell
 # IPv4 local connections:
-host     all     all     127.0.0.1/32     trust
+host     all     all     127.0.0.1/32     scram-sha-256
 ```
 
 ```shell
 # IPv6 local connections:
-host     all     all     ::1/128         trust
+host     all     all     ::1/128         scram-sha-256
 ```
 
 ## Altere conforme necessário
@@ -70,19 +70,19 @@ host     all     all     ::1/128         trust
 
 ```shell
 # IPv4 local connections:
-host     all     all     0.0.0.0/0         md5
+host     all     all     0.0.0.0/0         scram-sha-256
 ```
 
 <mark>**É possível também liberar o acesso apenas a uma rede específica:**</mark>
 
 ```shell
 # IPv4 local connections:
-host     all     all     192.168.1.0/24     md5
+host     all     all     192.168.1.0/24     scram-sha-256  
 ```
 
 ------
 
-#### Abra o pgadmin ou software de preferência e faça a conexão usando as credenciais do servidor configurado.
+#### Abra o pgadmin4 ou software de preferência e faça a conexão usando as credenciais do servidor configurado.
 
 #### Não esqueçam de liberar a porta no grupo de segurança ou na configuração de rede da sua Instância, de acordo com a nuvem utilizada ou VM Local.
 

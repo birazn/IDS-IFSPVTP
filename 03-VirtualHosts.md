@@ -1,5 +1,9 @@
 # Apache - VirtualHosts
 
+<div align="center"><img src="img/virtual_hosts_diagram.jpg" width="70%"/>
+</div>
+
+
 O suporte a virtual hosts é um daqueles recursos fundamentais, que possibilitaram o surgimento da Internet da forma como a conhecemos hoje.
 Ele permite hospedar diversos sites, com domínios ou subdomínios diferentes usando um único servidor e um único endereço IP. Os únicos limitantes com relação ao volume de sites que é possível hospedar são os recursos de hardware do servidor e a banda disponível.
 
@@ -19,7 +23,7 @@ sudo vim /etc/apache2/sites-available/ids.local.conf
 #### Dentro deste arquivo colocamos a seguinte descrição
 
 ```html
-<VirtualHost *:80> 
+<VirtualHost *:8081> 
     ServerAdmin webmaster@ids.local
     ServerName ids.local
     ServerAlias www.ids.local
@@ -29,11 +33,21 @@ sudo vim /etc/apache2/sites-available/ids.local.conf
 </VirtualHost>
 ```
 
-#### Salvar e fechar este arquivo
+Abra o arquivo para configurar que portas o apache esta escutando
+
+```shell
+sudo vim /etc/apache2/ports.conf
+```
+
+Coleque o "Listen 8081" abaixo do "Listen 80"
+
+### Salvar e fechar este arquivo
+
+#### Não esqueçam de liberar a porta 8081 no **SecurityGroup** AWS
 
 ------
 
-#### Vamos conceder as permissões
+### Vamos conceder as permissões
 
 ```shell
 $ sudo chown -R $USER:$USER  /var/www/html/ids.local/public_html
@@ -53,7 +67,7 @@ $ sudo vim  /var/www/html/ids.local/public_html/index.html
 ```html
 <html>
 	<head>
-		<title>Bem Vindo ao IDS!</title>
+		<title>Bem Vindo ao IDSS5 - 2023!</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
@@ -70,17 +84,19 @@ Para criar e habilitar usamos **a2ensite**
 $ sudo a2ensite ids.local.conf # habilita nosso VirtualHost
 ```
 
-Para desabilitar o link simbólico usamos **a2dissite**
+Para desabilitar o link simbólico usamos **a2dissite** <MARK>(**Não é necessário desabilitar os sites, a não ser que esteja desativando algum**)</MARK>
 ```shell
 $ sudo a2dissite ids.local.conf # só execute, quando for necessario desabilitar
 ```
 
-Desativem o principal:
+Desativem o principal, caso queiram deixar apenas o *virtualhost*:
 ```shell
 $ sudo a2dissite 000-default.conf # para que o virtualhost execute na página principal
 ```
 
-Restart o serviço apache2
+
+
+### Restart o serviço apache2
 
 ```shell
 $ sudo service apache2 restart
@@ -95,4 +111,6 @@ $ sudo service apache2 restart
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+
 

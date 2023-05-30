@@ -5,7 +5,8 @@
 Uma vez concluída a instalação do **Apache2**, a configuração do suporte para páginas pessoais consiste na ativação do módulo ***userdir*** do servidor apache2.
 
 ```bash
-$ sudo a2enmod userdir
+sudo a2enmod userdir
+sudo systemctl restart apache2
 ```
 
 ### Ativar suporte ao PHP
@@ -14,13 +15,15 @@ A execução de scripts php está desativada nas páginas pessoais. Para ativar,
 
 **php_admin_flag engine Off**
 
-no arquivo <mark>/etc/apache2/mods-available/php7.X.conf</mark> (Verificar a versão do PHP instalado)
+no arquivo <mark>/etc/apache2/mods-available/php8.1.conf</mark> (Verificar a versão do PHP instalado)
 
 ## A utilização
 
 As páginas pessoais são acessíveis através de um endereço: 
 
 **http://ip_do_servidor/~nome_usuario**
+
+**https://wwwp.fc.unesp.br/~perea/**
 
 Quando o servidor recebe um pedido deste, tenta encontrar e servir o conteúdo de um diretório específico chamada **public_html** na home do usuário.
 
@@ -56,11 +59,36 @@ Coloque o código para efetuar o teste.
 </html>
 ```
 
+## Configurando permissões
+
+```bash
+chmod 711 $HOME
+chmod -R 755 ~/public_html
+```
+
+**$HOME** variável de ambiente que pega pasta base do usuário logado
+
 ## Automatizando processo para futuros usuários
 
 Para que o diretório **public_html** seja criado automaticamente quando for criado um novo usuário, é adicionada a entrada em **/etc/skel**, com direitos de acesso exclusivos para próprio utilizador:
 
 ```bash
-$ sudo mkdir /etc/skel/public_html 
-$ sudo chmod 0700 /etc/skel/public_html
+sudo mkdir /etc/skel/public_html
+sudo chmod 0700 /etc/skel/public_html
 ```
+
+## Criando usuário para teste
+
+```bash
+sudo adduser teste
+```
+
+Verificar se dentro da pasta do usuário, existe a **'public_html'** configurada na **skel**
+
+<hr>
+
+## Dúvidas?
+
+[@birazn](https://www.instagram.com/birazn)
+
+[Canal YouTube](https://www.youtube.com/birazn)
