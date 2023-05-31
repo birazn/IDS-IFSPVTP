@@ -1,5 +1,5 @@
 
-<div align="right"><img src="../img/vtp_ifsp-pb.png" width="40%" /></div>
+<div align="center"><img src="../img/vtp_ifsp-pb.png" width="40%" /></div>
 
 # Editor de Texto - Configuração
 
