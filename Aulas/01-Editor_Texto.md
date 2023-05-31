@@ -43,4 +43,4 @@ set cursorline
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="40%"/>
+<img src="../img/birazn-social.png" width="25%"/>
