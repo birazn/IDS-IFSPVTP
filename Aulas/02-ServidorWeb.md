@@ -1,6 +1,6 @@
 # Servidor Web – Habilitando a Navegação
 
-<img src="img/serverweb.png" width="50%"/>
+<img src="../img/serverweb.png" width="50%"/>
 
 # O que é?
 
@@ -10,7 +10,7 @@ O mais popular, e mais utilizado no mundo, é o servidor **Apache** (software li
 
 A Microsoft possui a sua própria solução denominada **IIS** (Internet Information Services).
 
-<img src="img/apache-logo-3.png" width="30%"/>
+<img src="../img/apache-logo-3.png" width="30%"/>
 
 ## Instalando e Configurando Apache 2
 

@@ -1,6 +1,9 @@
+
+<div align="right"><img src="../img/vtp_ifsp-pb.png" width="40%" /></div>
+
 # Editor de Texto - Configuração
 
-<img src="img/vim.png" width="20%"/>
+<img src="../img/vim.png" width="20%"/>
 
 Vim, é uma opção ao editor em modo texto nano que tem as bases do Vi com algumas atualizações.
 
@@ -40,3 +43,4 @@ set cursorline
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
+<img src="../img/birazn-social.png" width="40%"/>

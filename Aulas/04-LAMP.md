@@ -2,7 +2,7 @@
 
 # Instalando e Configurando LAMP
 
-<div align="center"><img src="img/LAMP-Stack-logo.png" width="70%" /></div>
+<div align="center"><img src="../img/LAMP-Stack-logo.png" width="70%" /></div>
 
 Uma stack LAMP é um pacote de, no mínimo, quatro tecnologias de software diferentes que os desenvolvedores usam para criar sites e aplicativos web. LAMP é um acrônimo para o sistema operacional **Linux**; o servidor web, **Apache**; o servidor de banco de dados, **MySQL**; e a linguagem de programação, **PHP**.
 
@@ -17,7 +17,7 @@ $ sudo apt upgrade
 
 ---
 
-<div align="center"><img src="img/php.png" /></div>
+<div align="center"><img src="../img/php.png" /></div>
 
 # PHP
 
@@ -58,11 +58,11 @@ phpinfo();
 
 http://ip_do_servidor/phpinfo.php
 
-<div align="center"><img src="img/phpinfo.png" width="100%" /></div>
+<div align="center"><img src="../img/phpinfo.png" width="100%" /></div>
 
 <hr>
 
-<div align="center"><img src="img/mysql.png" /></div>
+<div align="center"><img src="../img/mysql.png" /></div>
 
 ## MySQL
 
@@ -125,7 +125,7 @@ Não esqueça de Liberar no SecurityGroup 3306
 
 ---
 
-<div align="center"><img src="img/phpmyadmin.png" /></div>
+<div align="center"><img src="../img/phpmyadmin.png" /></div>
 
 ## PHP MyAdmin
 
@@ -147,13 +147,13 @@ Com o PHPMyAdmin aberto, siga os passos
 
 Configurações > Recursos > Banco de Dados
 
-![](img/phpmyadmin-hide.png)
+<img src="../img/phpmyadmin-hide.png" />
 
 Inclua a lista de nomes do banco de dados que deseja ocultar, separados por | [pipe].
 
 <hr>
 
-#### Após a instalação [Opcional]
+#### Após a instalação <b>[Opcional]</b>
 
 > para remover o banco de dados de teste e quaisquer permissões de usuário estranhos adicionados durante o processo inicial de instalação, para configurar e melhorar a segurança do seu servidor MySQL
 

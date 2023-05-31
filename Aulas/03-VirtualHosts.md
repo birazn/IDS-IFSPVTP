@@ -1,6 +1,6 @@
 # Apache - VirtualHosts
 
-<div align="center"><img src="img/virtual_hosts_diagram.jpg" width="70%"/>
+<div align="center"><img src="../img/virtual_hosts_diagram.jpg" width="70%"/>
 </div>
 
 
