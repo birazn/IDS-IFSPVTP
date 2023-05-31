@@ -3,7 +3,7 @@
 </div>
 
 ## IDS-IFSPVTP
-# Implantação de Servidores - IFSP Campus Votuporanga
+# Implantação de Servidores - IFSP Votuporanga
 
 Repositório focado em disponibilizar materiais sobre a disciplina de Implantação para os Cursos Analise e Desenvolvimento de Sistemas(descontinuado) e Bacharel em Sistemas de Informação do Instituto Federal de São Paulo, Campus Votuporanga.
 
