@@ -1,6 +1,6 @@
+# Instalando e Configurando LAMP <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
 
-
-# Instalando e Configurando LAMP
+<br>
 
 <div align="center"><img src="../img/LAMP-Stack-logo.png" width="70%" /></div>
 
@@ -231,3 +231,18 @@ Query OK, 0 rows affected (0.02 sec)
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+<img src="../img/birazn-social.png" width="25%" />
+
+---
+
+<a href="https://github.com/birazn/IDS-IFSPVTP#sum%C3%A1rio">
+<img align="left" src="../img/casa.png" width="64"/>
+</a>
+ <p style="float:right" align="center">
+  <a href="05-Paginas_Pessoais.md">
+     <img title="Páginas Pessoais" src="../img/seta-para-frente.png" width="64" />
+  </a>
+  <br>
+  Páginas Pessoais
+</p> 

@@ -1,4 +1,4 @@
-# Servidor Web – Habilitando a Navegação
+# Servidor Web – Habilitando a Navegação <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
 
 <img src="../img/serverweb.png" width="50%"/>
 
@@ -37,3 +37,18 @@ $ sudo vim /etc/apache2/apache2.conf
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+<img src="../img/birazn-social.png" width="25%" />
+
+---
+
+<a href="https://github.com/birazn/IDS-IFSPVTP#sum%C3%A1rio">
+<img align="left" src="../img/casa.png" width="64"/>
+</a>
+ <p style="float:right" align="center">
+  <a href="03-VirtualHosts.md">
+     <img title="Virtual Hosts" src="../img/seta-para-frente.png" width="64" />
+  </a>
+  <br>
+  Virtual Hosts
+</p>

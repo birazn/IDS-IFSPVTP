@@ -1,7 +1,5 @@
 
-<div align="center"><img src="../img/vtp_ifsp-pb.png" width="40%" /></div>
-
-# Editor de Texto - Configuração
+# Editor de Texto - Configuração <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
 
 <img src="../img/vim.png" width="20%"/>
 
@@ -44,3 +42,16 @@ set cursorline
 [Canal YouTube](https://www.youtube.com/birazn)
 
 <img src="../img/birazn-social.png" width="25%"/>
+
+---
+
+<a href="https://github.com/birazn/IDS-IFSPVTP#sum%C3%A1rio">
+<img align="left" src="../img/casa.png" width="64"/>
+</a>
+ <p style="float:right" align="center">
+  <a href="02-ServidorWeb.md">
+     <img title="Servidor Web" src="../img/seta-para-frente.png" width="64" />
+  </a>
+  <br>
+  Servidor Web
+</p>

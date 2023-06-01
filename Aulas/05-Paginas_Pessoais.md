@@ -1,4 +1,6 @@
-# Configurando Páginas Pessoais
+# Configurando Páginas Pessoais <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
+
+<br>
 
 É possível oferecer a cada utilizador a possibilidade de criar páginas Internet pessoais.
 
@@ -85,10 +87,12 @@ sudo adduser teste
 
 Verificar se dentro da pasta do usuário, existe a **'public_html'** configurada na **skel**
 
-<hr>
+---
 
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+<img src="../img/birazn-social.png" width="25%" />

@@ -1,8 +1,8 @@
-<img src="/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/IDS-IFSPVTP/img/docker.png" style="zoom:33%;" />
+ <img align="center" src="../img/docker.png" width="30%" />
+ 
+ <br>
 
-[TOC]
-
-# Iniciando com Docker
+# Iniciando com Docker <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
 
 ## Docker Engine+CLI vs Docker Desktop
 
@@ -32,9 +32,9 @@ Esses são apenas alguns dos comandos mais comuns do Docker. Existem muitos outr
 
 ## Documentação de Referência
 
-[O Projeto · HonKit](https://livro.descomplicandodocker.com.br/)
+[Descmplicando Docker](https://livro.descomplicandodocker.com.br/)
 
-------
+---
 
 # Conceito de Container
 
@@ -55,7 +55,13 @@ Esses são apenas alguns dos comandos mais comuns do Docker. Existem muitos outr
 
 ## Imagem mostrando a diferença
 
-![https://www.netapp.com/media/Screen-Shot-2018-03-20-at-9.24.09-AM_tcm19-56643.png](https://www.netapp.com/media/Screen-Shot-2018-03-20-at-9.24.09-AM_tcm19-56643.png)
+![Exemplo](https://www.netapp.com/media/Screen-Shot-2018-03-20-at-9.24.09-AM_tcm19-56643.png)
+
+## Imagem de Container
+
+- Somente o necessário para APP funcionar
+
+---
 
 ## Docker [Popularizou a 2ªGeração de Container]
 
@@ -63,11 +69,7 @@ Esses são apenas alguns dos comandos mais comuns do Docker. Existem muitos outr
 
   ### Orquestração
 
-  ![](https://vertigo.com.br/wp-content/uploads/2019/01/grafico-ferramentas-de-orquestracao-768x512-1.png)
-
-## Imagem de Container
-
-- Somente o necessário para APP funcionar
+  ![Exemplos](https://vertigo.com.br/wp-content/uploads/2019/01/grafico-ferramentas-de-orquestracao-768x512-1.png)
 
 ---
 
@@ -90,7 +92,7 @@ curl -fsSL https://get.docker.com | bash
 
 #### A linha executa um *script* que já identifica a sua distro de Linux e faz a instalação de tudo que for necessário.
 
-> **Para as versões de Linux Mint é necessário utilizar outro processo, verifique o arquivo de instalação exclusivo desta distro.**
+> **Para as versões de Linux Mint é necessário utilizar outro processo, verifique o arquivo de instalação exclusivo desta distro.** [Linux Mint 21](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/09-Docker_LinuxMint_21.md)
 
 ### Após a instalação faça o teste verificando qual versão foi instalada.
 
@@ -206,11 +208,14 @@ Quando não queremos mais utilizar aquele container podemos exclui-lo com parame
 ```bash
 docker container rm [CONTAINER ID]
 ```
+---
 
-## [Livro de referência](https://livro.descomplicandodocker.com.br/chapters/chapter_01.html)
+# [Livro de referência](https://livro.descomplicandodocker.com.br/chapters/chapter_01.html)
 
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+<img src="../img/birazn-social.png" width="25%" />

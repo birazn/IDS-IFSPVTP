@@ -1,4 +1,10 @@
-<img src="img/docker.png" style="zoom:33%;" />
+# Instalando Docker Linux Mint 21 <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
+
+<br>
+
+<img align="center" src="../img/docker.png" width="30%" />
+
+<br>
 
 ## Instalando Docker Engine - Terminal
 
@@ -72,10 +78,12 @@ docker container run -it ubuntu /bin/bash
 ### Fonte
 [Computing For Geeks](https://computingforgeeks.com/install-docker-docker-compose-on-linux-mint/)
 
-------
+---
 
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+<img src="../img/birazn-social.png" width="25%" />
