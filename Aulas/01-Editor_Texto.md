@@ -48,7 +48,7 @@ set cursorline
 <a href="https://github.com/birazn/IDS-IFSPVTP#sum%C3%A1rio">
 <img align="left" src="../img/casa.png" width="64"/>
 </a>
- <p style="float:right" align="center">
+ <p align="right">
   <a href="02-ServidorWeb.md">
      <img title="Servidor Web" src="../img/seta-para-frente.png" width="64" />
   </a>
