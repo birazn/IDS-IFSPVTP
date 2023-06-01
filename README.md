@@ -36,4 +36,4 @@ Professor responsável: Ubiratan Zakaib do Nascimento
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="25%" />
+<img src="img/birazn-social.png" width="25%" />
