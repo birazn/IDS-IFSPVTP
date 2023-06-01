@@ -44,6 +44,8 @@ set cursorline
 
 <img align="left" src="../img/birazn-social.png" width="25%"/>
 
+
+
 ---
 <p align="left">
 <a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
@@ -59,4 +61,3 @@ set cursorline
   <br>
   Servidor Web
 </p>
-
