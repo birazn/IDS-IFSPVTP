@@ -8,9 +8,10 @@ Vim, é uma opção ao editor em modo texto nano que tem as bases do Vi com algu
 Para instalar:
 
 ```shell
-$ sudo apt install vim
-$ sudo vim /etc/vim/vimrc # O vimrc é o arquivo que tem as configurações do vim
+sudo apt install vim
+sudo vim /etc/vim/vimrc # O vimrc é o arquivo que tem as configurações do vim
 ```
+
 Descomentar as linhas, caso seja necessário:
 
 ```shell
@@ -41,13 +42,16 @@ set cursorline
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="25%"/>
+<img align="left" src="../img/birazn-social.png" width="25%"/>
 
 ---
-
-<a href="https://github.com/birazn/IDS-IFSPVTP#sum%C3%A1rio">
-<img align="left" src="../img/casa.png" width="64"/>
+<p align="left">
+<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+<img src="../img/casa.png" width="64"/>
 </a>
+  <br>
+  Sumário
+  </p>
  <p align="right">
   <a href="02-ServidorWeb.md">
      <img title="Servidor Web" src="../img/seta-para-frente.png" width="64" />
@@ -55,3 +59,4 @@ set cursorline
   <br>
   Servidor Web
 </p>
+
