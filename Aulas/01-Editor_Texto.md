@@ -42,19 +42,18 @@ set cursorline
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img align="left" src="../img/birazn-social.png" width="25%"/>
-
-
+<img src="../img/birazn-social.png" width="25%"/>
 
 ---
+
 <p align="left">
-<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
-<img src="../img/casa.png" width="64"/>
-</a>
+  <a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+    <img src="../img/casa.png" width="64" />
+  </a>
   <br>
   Sumário
-  </p>
- <p align="right">
+</p>
+<p align="right">
   <a href="02-ServidorWeb.md">
      <img title="Servidor Web" src="../img/seta-para-frente.png" width="64" />
   </a>
