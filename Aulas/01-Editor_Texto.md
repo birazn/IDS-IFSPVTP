@@ -49,14 +49,14 @@ set cursorline
 <p align="left">
   <a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
     <img src="../img/casa.png" width="64" />
-  </a>
   <br>
   Sumário
+  </a>
 </p>
 <p align="right">
   <a href="02-ServidorWeb.md">
      <img title="Servidor Web" src="../img/seta-para-frente.png" width="64" />
-  </a>
   <br>
   Servidor Web
+  </a>
 </p>
