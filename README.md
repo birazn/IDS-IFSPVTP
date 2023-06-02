@@ -3,13 +3,8 @@
 Repositório focado em disponibilizar materiais sobre a disciplina de Implantação para os Cursos Analise e Desenvolvimento de Sistemas(descontinuado) e Bacharel em Sistemas de Informação do Instituto Federal de São Paulo, Campus Votuporanga.
 
 Professor responsável: Ubiratan Zakaib do Nascimento
-<br>Instagram: [@birazn](https://www.instagram.com/birazn)
-
-<img src="img/birazn-social.png" width="25%" />
-
 <br>
-
-<br>
+Instagram: [@birazn](https://www.instagram.com/birazn)
 
 # Sumário
 
@@ -27,7 +22,6 @@ Professor responsável: Ubiratan Zakaib do Nascimento
 - [Docker no Linux Mint](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/09-Docker_LinuxMint_21.md)
 
 
-
 ---
 
 ## Dúvidas?
@@ -36,4 +30,4 @@ Professor responsável: Ubiratan Zakaib do Nascimento
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="img/birazn-social.png" width="25%" />
+<img src="img/birazn-social.png" width="250" />
