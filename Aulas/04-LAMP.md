@@ -1,8 +1,9 @@
 # Instalando e Configurando LAMP <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
 
 <br>
+<br>
 
-<div align="center"><img src="../img/LAMP-Stack-logo.png" width="70%" /></div>
+<div align="center"><img src="../img/LAMP-Stack-logo.png" width="300" /></div>
 
 Uma stack LAMP é um pacote de, no mínimo, quatro tecnologias de software diferentes que os desenvolvedores usam para criar sites e aplicativos web. LAMP é um acrônimo para o sistema operacional **Linux**; o servidor web, **Apache**; o servidor de banco de dados, **MySQL**; e a linguagem de programação, **PHP**.
 
