@@ -57,7 +57,7 @@ CMD ["apache2ctl", "-D", "FOREGROUND"]
 Após a criação do arquivo é necessária criação dessa imagem.
 
 ```bash
-docker build -t ServerWeb:1.0 .
+docker build -t serverweb:1.0 .
 ```
 
 > #### Lembrando que cada Dockerfile deve estar dentro de seu diretório
