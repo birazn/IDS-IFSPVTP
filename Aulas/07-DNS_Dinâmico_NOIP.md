@@ -1,14 +1,17 @@
-# Servidor DNS Dinâmico Gratuito - NOIP <img align="right" src="img/vtp_ifsp-pb.png" width="250">
+# Servidor DNS Dinâmico <img align="right" src="../img/vtp_ifsp-pb.png" width="250">
 
-![](/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/IDS-IFSPVTP/img/noip.png)
+<br>
+<br>
 
-#### O primeiro passo é criar uma conta no site do serviço gratuito no-ip. [Acessar o site NOIP](https://www.noip.com/)
+<img src="../img/noip.png" width="700" align="center" />
 
-#### Criar uma conta e fazer a ativação
+## O primeiro passo é criar uma conta no site do serviço gratuito no-ip. [Acessar o site NOIP](https://www.noip.com/)
 
-#### Após ter criado a conta, inicialize sua instância na AWS e pegue o IP para configurar o domínio no NOIP
+### Criar uma conta e fazer a ativação
 
-![](/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/IDS-IFSPVTP/img/noip-host.png)
+### Após ter criado a conta, inicialize sua instância na AWS e pegue o IP para configurar o domínio no NOIP
+
+![](../img/noip-host.png)
 
 Feitas as configurações no site do serviço, agora é a hora de configurar o nosso servidor de modo a que ele envie seu novo IP para o no-ip a intervalos regulares, o que faz com que precisemos decorar somente o domínio que registramos, e não mais o IP.
 Isso facilita a configuração do Termius, por exemplo, não sendo mais necessário mudar o IP nele a cada vez que a instância é parada e iniciada novamente.
