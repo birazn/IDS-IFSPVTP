@@ -25,8 +25,6 @@ As páginas pessoais são acessíveis através de um endereço:
 
 **http://ip_do_servidor/~nome_usuario**
 
-**https://wwwp.fc.unesp.br/~perea/**
-
 Quando o servidor recebe um pedido deste, tenta encontrar e servir o conteúdo de um diretório específico chamada **public_html** na home do usuário.
 
 Portanto, para que cada usuário possa criar as suas páginas deve, antes de mais nada, criar um diretório chamada “**public_html**” na sua home, onde colocará os conteúdos.
