@@ -28,7 +28,7 @@ Salve e sai do editor de texto vim.
 Após a criação do arquivo é necessária criação dessa imagem.
 
 ```bash
-docker build -t NomeImagem:1.0 .
+docker build -t nome-imagem:1.0 .
 ```
 
 O ponto "**.**" do final do comando, indica que o Dockerfile a ser executado é o que está na própria pasta que estamos.
