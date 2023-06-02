@@ -3,13 +3,14 @@
 <br>
 <br>
 
-<img src="../img/noip.png" width="700" align="center" />
+![](../img/noip.png)
 
-## O primeiro passo é criar uma conta no site do serviço gratuito no-ip. [Acessar o site NOIP](https://www.noip.com/)
+## O primeiro passo é criar uma conta no site do serviço gratuito no-ip.
+## [Acessar o site NOIP](https://www.noip.com/)
 
-### Criar uma conta e fazer a ativação
+## Criar uma conta e fazer a ativação
 
-### Após ter criado a conta, inicialize sua instância na AWS e pegue o IP para configurar o domínio no NOIP
+ Após ter criado a conta, inicialize sua instância na AWS e pegue o IP para configurar o domínio no NOIP
 
 ![](../img/noip-host.png)
 
