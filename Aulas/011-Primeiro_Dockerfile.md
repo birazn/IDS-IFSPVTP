@@ -65,7 +65,7 @@ docker build -t serverweb:1.0 .
 Feita a imagem é possivel executar normalmente como vinhamos fazendo com as imagens externas.
 
 ```bash
-docker container run --name MeuServidor -d ServerWeb:1.0
+docker container run --name MeuServidor -d serverweb:1.0
 ```
 
 
