@@ -1,4 +1,4 @@
-# Instalando e Configurando LAMP <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
+# Instalando e Configurando LAMP <img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
 
 <br>
 <br>

@@ -1,4 +1,4 @@
-# Servidor Web – Habilitando a Navegação <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
+# Servidor Web – Habilitando a Navegação <img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
 
 <img src="../img/serverweb.png" width="50%"/>
 

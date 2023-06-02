@@ -1,5 +1,5 @@
 
-# Editor de Texto - Configuração <img align="right" src="../img/vtp_ifsp-pb.png" width="30%" />
+# Editor de Texto - Configuração <img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
 
 <img src="../img/vim.png" width="20%"/>
 

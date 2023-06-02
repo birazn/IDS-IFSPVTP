@@ -1,4 +1,4 @@
-# Servidor DNS Dinâmico Gratuito - NOIP <img align="right" src="img/vtp_ifsp-pb.png" width="40%">
+# Servidor DNS Dinâmico Gratuito - NOIP <img align="right" src="img/vtp_ifsp-pb.png" width="250">
 
 ![](/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/IDS-IFSPVTP/img/noip.png)
 
