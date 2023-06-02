@@ -7,7 +7,7 @@
 
 <img title="" src="../img/postgresql.png" alt="">
 
-Fazer a instalação usando o comando abaixo, **verifiquem a versão** do repositório.
+Fazer a instalação usando o comando abaixo, <mark>**verifiquem a versão**</mark> do repositório.
 
 ```shell
 sudo apt install postgresql-14 -y
