@@ -212,10 +212,28 @@ docker container rm [CONTAINER ID]
 
 # [Livro de referência](https://livro.descomplicandodocker.com.br/chapters/chapter_01.html)
 
+<p align="right">
+  <a href="09-Docker_LinuxMint_21.md">
+     <img title="Docker Linux Mint 21" src="../img/seta-para-frente.png" width="35" />
+  <br>
+  Docker Linux Mint 21
+  </a>
+  
+</p> 
+<p align="left">
+<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+    <img src="../img/casa.png" width="35" />
+  <br>
+  Sumário
+</a>
+</p>
+
+---
+
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="25%" />
+<img src="../img/birazn-social.png" width="250"/>

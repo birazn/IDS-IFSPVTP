@@ -104,25 +104,26 @@ $ sudo service apache2 restart
 
 ### <u>Sempre que fizer uma mudança da configuração, não esqueça de reiniciar o serviço</u>
 
+<p align="right">
+<a href="04-LAMP.md">
+     <img title="LAMP" src="../img/seta-para-frente.png" width="35" />
+  <br>
+  LAMP
+  </a>
+</p> 
+<p align="left">
+<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+    <img src="../img/casa.png" width="35" />
+  <br>
+  Sumário
+</a>
+</p>
 
-
+---
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="25%" />
-
----
-
-<a href="https://github.com/birazn/IDS-IFSPVTP#sum%C3%A1rio">
-<img align="left" src="../img/casa.png" width="64"/>
-</a>
- <p style="float:right" align="center">
-  <a href="04-LAMP.md">
-     <img title="LAMP" src="../img/seta-para-frente.png" width="64" />
-  </a>
-  <br>
-  LAMP
-</p>
+<img src="../img/birazn-social.png" width="250"/>

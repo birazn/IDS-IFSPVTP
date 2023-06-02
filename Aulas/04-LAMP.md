@@ -224,6 +224,22 @@ mysql>INSTALL COMPONENT 'file://component_validate_password';
 Query OK, 0 rows affected (0.02 sec)
 ```
 
+<p align="right">
+  <a href="05-Paginas_Pessoais.md">
+     <img title="Páginas Pessoais" src="../img/seta-para-frente.png" width="35" />
+  <br>
+  Páginas Pessoais
+  </a>
+
+</p> 
+<p align="left">
+<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+    <img src="../img/casa.png" width="35" />
+  <br>
+  Sumário
+</a>
+</p>
+
 ---
 
 ## Dúvidas?
@@ -232,17 +248,4 @@ Query OK, 0 rows affected (0.02 sec)
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="25%" />
-
----
-
-<a href="https://github.com/birazn/IDS-IFSPVTP#sum%C3%A1rio">
-<img align="left" src="../img/casa.png" width="64"/>
-</a>
- <p style="float:right" align="center">
-  <a href="05-Paginas_Pessoais.md">
-     <img title="Páginas Pessoais" src="../img/seta-para-frente.png" width="64" />
-  </a>
-  <br>
-  Páginas Pessoais
-</p> 
+<img src="../img/birazn-social.png" width="250"/>

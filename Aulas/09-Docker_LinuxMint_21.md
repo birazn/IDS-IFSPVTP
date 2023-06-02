@@ -75,7 +75,7 @@ docker container run -it ubuntu /bin/bash
 ```
 
 
-### Fonte
+## Fonte
 [Computing For Geeks](https://computingforgeeks.com/install-docker-docker-compose-on-linux-mint/)
 
 ---
@@ -86,4 +86,4 @@ docker container run -it ubuntu /bin/bash
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="25%" />
+<img src="../img/birazn-social.png" width="250" />

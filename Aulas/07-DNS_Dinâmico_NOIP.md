@@ -73,10 +73,30 @@ sudo chmod 755 /etc/rc.local
 
 Reinicie o servidor para verificar se o serviço está ativo.
 
-------
+---
+
+<p align="right">
+  <a href="08-Iniciando_com_Docker.md">
+     <img title="Iniciando com Docker" src="../img/seta-para-frente.png" width="35" />
+  <br>
+  Iniciando com Docker
+  </a>
+
+</p> 
+<p align="left">
+<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+    <img src="../img/casa.png" width="35" />
+  <br>
+  Sumário
+</a>
+</p>
+
+---
 
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+<img src="../img/birazn-social.png" width="250"/>

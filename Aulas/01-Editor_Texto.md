@@ -33,30 +33,26 @@ filetype plugin indent on
 set nu
 set cursorline
 ```
+<p align="right">
+<a href="02-ServidorWeb.md">
+     <img title="Servidor Web" src="../img/seta-para-frente.png" width="35" />
+     <br>
+    Servidor Web
+</a>
+</p> 
+<p align="left">
+<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+    <img src="../img/casa.png" width="35" />
+  <br>
+  Sumário
+</a>
+</p>
 
-<hr>
-
+---
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="25%"/>
-
----
-
-<p align="left">
-  <a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
-    <img src="../img/casa.png" width="64" />
-  <br>
-  Sumário
-  </a>
-</p>
-<p align="right">
-  <a href="02-ServidorWeb.md">
-     <img title="Servidor Web" src="../img/seta-para-frente.png" width="64" />
-  <br>
-  Servidor Web
-  </a>
-</p>
+<img src="../img/birazn-social.png" width="250"/>

@@ -86,10 +86,30 @@ host     all     all     192.168.1.0/24     scram-sha-256
 
 #### Não esqueçam de liberar a porta no grupo de segurança ou na configuração de rede da sua Instância, de acordo com a nuvem utilizada ou VM Local.
 
-<hr>
+---
+
+<p align="right">
+  <a href="07-DNS_Dinâmico_NOIP.md">
+     <img title="DNS Dinâmico NOIP" src="../img/seta-para-frente.png" width="35" />
+  <br>
+  DNS Dinâmico NOIP
+  </a>
+
+</p> 
+<p align="left">
+<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
+    <img src="../img/casa.png" width="35" />
+  <br>
+  Sumário
+</a>
+</p>
+
+---
 
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
+
+<img src="../img/birazn-social.png" width="250"/>
