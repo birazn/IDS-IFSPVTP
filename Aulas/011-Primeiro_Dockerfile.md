@@ -1,4 +1,4 @@
-# Primeiro Dockerfile <img src="../img/vtp_ifsp-pb.png" width="250">
+# Primeiro Dockerfile <img align="right" src="../img/vtp_ifsp-pb.png" width="250">
 
 
 
