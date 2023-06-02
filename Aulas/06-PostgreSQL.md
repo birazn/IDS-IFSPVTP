@@ -1,4 +1,6 @@
-# Instalando e Configurando o PostgreSQL <img align="right" src="../img/vtp_ifsp-pb.png" width="40%">
+#  PostgreSQL <img align="right" src="../img/vtp_ifsp-pb.png" width="40%">
+
+## Instalando e Configurando
 
 <br>
 <br>
