@@ -12,11 +12,11 @@ Dockerhub é um Serviço de Web Hosting compartilhado para imagens Docker, é ne
 
 Para criar sua conta acesse o site https://hub.docker.com/ e faça seu cadastro.
 
-![](/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/BSI/IDSS5/IDS-IFSPVTP/img/dockerhub-tela.png)
+![](../img/dockerhub-tela.png)
 
 Após seu cadastro faça login, na interface terá uma tela sem repositório onde poderá cria-los diretamente pelo sistema ou serão gerados automaticamente durante os "*Puchs*", enviando suas imagens. **Pode ser necessário acessar o e-mail de cadastro para confirmação.**
 
-<img src="/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/BSI/IDSS5/IDS-IFSPVTP/img/dockerhub-repositorio.png"  />
+<img src="../img/dockerhub-repositorio.png"  />
 
 A conta gratuita possui direito a um repositório privado. Existem planos pagos, caso queira mais repositórios privados, isso geralmente é voltado para empresas que usam Docker em sua infraestrutura.
 
@@ -30,7 +30,7 @@ docker images
 
 Obtendo um resultado semelhante a mostrado na imagem.
 
-![](/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/BSI/IDSS5/IDS-IFSPVTP/img/DockerImages.jpg)
+![](../img/DockerImages.jpg)
 
 Caso ainda não tenha nenhuma imagem criada, vamos criar a primeira, usando procedimento da [aula anterior](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/011-Primeiro_Dockerfile.md) com o Dockerfile.
 
