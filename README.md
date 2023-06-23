@@ -23,6 +23,7 @@ Instagram: [@birazn](https://www.instagram.com/birazn)
 - [Gerenciando Container](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/010-Gerenciando_container.md)
 - [Primeiro Dockerfile](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/011-Primeiro_Dockerfile.md)
 - [Subindo imagem Docker hub](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/012-Subindo_imagem_para_DockerHub.md)
+- [Docker compose - exemplo](https://github.com/birazn/compose-exemplo)
 
 
 
