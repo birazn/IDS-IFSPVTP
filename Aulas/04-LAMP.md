@@ -113,8 +113,8 @@ CREATE USER 'idss'@'localhost' IDENTIFIED BY 'senha_da_nasa';
 GRANT ALL PRIVILEGES ON *.* TO 'idss'@'localhost' WITH GRANT OPTION;
 
 CREATE DATABASE idss2024;
-CREATE USER 'idslim'@'localhost' IDENTIFIED BY 'senha_da_nasa';
-GRANT ALL ON idss2024.* TO 'idslim'@'localhost' WITH GRANT OPTION;
+CREATE USER 'idsslim'@'localhost' IDENTIFIED BY 'senha_da_nasa';
+GRANT ALL ON idss2024.* TO 'idsslim'@'localhost' WITH GRANT OPTION;
 ```
 
 > **CASO QUEIRA liberar acesso remoto para outros programas**
