@@ -99,7 +99,7 @@ mysql>
 
 Se você quiser fazer login como root através de programas externos, como o **phpMyAdmin**, você tem **<u>duas opções</u>**:
 
-**A primeira opção é alterando o método de autenticação do usuário root:**
+**A primeira opção é alterando o método de autenticação do usuário root [BÁSICO]:**
 
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da_nasa';
