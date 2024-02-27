@@ -8,7 +8,7 @@ Vim, é uma opção ao editor em modo texto nano que tem as bases do Vi com algu
 Para instalar:
 
 ```shell
-sudo apt install vim
+sudo apt install vim # Geralmente já vem instalado nas versões atuais do Ubuntu
 sudo vim /etc/vim/vimrc # O vimrc é o arquivo que tem as configurações do vim
 ```
 

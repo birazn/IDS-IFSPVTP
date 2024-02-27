@@ -10,8 +10,8 @@ Uma stack LAMP é um pacote de, no mínimo, quatro tecnologias de software difer
 ## Atualizando repositórios
 
 ```bash
-$ sudo apt update
-$ sudo apt upgrade
+sudo apt update
+sudo apt upgrade
 ```
 
 > ***É importante que o Servidor Web já esteja instalado e configurado. Neste caso, estamos usando o Apache 2.***
@@ -22,23 +22,23 @@ $ sudo apt upgrade
 
 # PHP
 
-É o interpretador que torna possível a execução de paginas dinâmicas e interativa usando seus próprios scripts e frameworks.
+É o interpretador que torna possível a execução de paginas dinâmicas e interativa usando seus próprios *scripts* e *frameworks*.
 
 **(para Ubuntu 22.04 – verificando a versão PHP)**
 
+> É extremamente importante verificar a versão do PHP antes de executar o comando.
+
 ```bash
-$ sudo apt install libapache2-mod-php8.1 php8.1 php8.1-mysql php8.1-pgsql
+sudo apt install libapache2-mod-php8.1 php8.1 php8.1-mysql php8.1-pgsql
 ```
 
 **(para versões diferentes verifique a versão do PHP)**
 
-> Notem que o X apresentado na versão '8.X' é para indicar que as versões pode ser diferentes, dependendo da distro e do tempo de lançamento dela.
-
 Criar o diretório de log para PHP e dar permissão do usuário Apache:
 
 ```bash
-$ sudo mkdir /var/log/php
-$ sudo chown www-data /var/log/php
+sudo mkdir /var/log/php
+sudo chown www-data /var/log/php
 ```
 
 **(<u>www-data</u> é usuário do apache)**
@@ -46,7 +46,7 @@ $ sudo chown www-data /var/log/php
 Crie um arquivo funcionalidades.
 
 ```bash
-$ sudo vim /var/www/html/phpinfo.php
+sudo vim /var/www/html/phpinfo.php
 ```
 
 ```php
@@ -70,21 +70,25 @@ http://ip_do_servidor/phpinfo.php
 O MySQL é um sistema de gerenciamento de banco de dados relacional (SGBDR) e é um componente popular de muitas aplicações.
 
 ```bash
-$ sudo apt install mysql-server
+sudo apt install mysql-server
 ```
 
 #### Verificando serviço
 
 ```bash
-$ sudo service mysql status # forma convencional
-# ou
-$ sudo systemctl status mysql # forma mais atual
+sudo service mysql status # forma convencional
+```
+
+### OU
+
+```bash
+sudo systemctl status mysql # forma mais atual
 ```
 
 #### Logando como root sem senha inicial
 
 ```bash
-$ sudo mysql
+sudo mysql
 ```
 
 **Deve cair em um prompt**
@@ -93,7 +97,7 @@ $ sudo mysql
 mysql>
 ```
 
-Se você quiser fazer login como root através de programas externos, como o **phpMyAdmin**, você tem duas opções:
+Se você quiser fazer login como root através de programas externos, como o **phpMyAdmin**, você tem **<u>duas opções</u>**:
 
 **A primeira opção é alterando o método de autenticação do usuário root:**
 
@@ -105,24 +109,24 @@ FLUSH PRIVILEGES;
 **E a segunda e recomendada é criar um usuário administrativo com acesso a todos os bancos de dados, sem alterar o método de autenticação do root:** <mark>(indicada)</mark> 
 
 ```sql
-CREATE USER 'ids'@'localhost' IDENTIFIED BY 'senha_da_nasa';
-GRANT ALL PRIVILEGES ON *.* TO 'ids'@'localhost' WITH GRANT OPTION;
+CREATE USER 'idss'@'localhost' IDENTIFIED BY 'senha_da_nasa';
+GRANT ALL PRIVILEGES ON *.* TO 'idss'@'localhost' WITH GRANT OPTION;
 
-CREATE DATABASE ids2023;
+CREATE DATABASE idss2024;
 CREATE USER 'idslim'@'localhost' IDENTIFIED BY 'senha_da_nasa';
-GRANT ALL ON ids2023.* TO 'idslim'@'localhost' WITH GRANT OPTION;
+GRANT ALL ON idss2024.* TO 'idslim'@'localhost' WITH GRANT OPTION;
 ```
 
-> **Caso queira liberar acesso remoto para outros programas**
+> **CASO QUEIRA liberar acesso remoto para outros programas**
 
 ```bash
-$ sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf # NÃO É OBRIGATÓRIO
 ```
 
 Comente a linha do **bind-address**
 
 Repita a linha do GRANT ALL trocando localhost pelo IP do servidor.
-Não esqueça de Liberar no SecurityGroup 3306
+Não esqueça de Liberar no Security Group AWS a porta padrão, 3306 ou a porta que configurou no seu MySQL
 
 ---
 
@@ -131,7 +135,7 @@ Não esqueça de Liberar no SecurityGroup 3306
 ## PHP MyAdmin
 
 ```bash
-$ sudo apt install phpmyadmin
+sudo apt install phpmyadmin
 ```
 
 Marcar a opção do servidor web que está utilizando com **Apache**. [***<u>Selecione com barra de espaço</u>***]
@@ -154,12 +158,12 @@ Inclua a lista de nomes do banco de dados que deseja ocultar, separados por | [p
 
 <hr>
 
-#### Após a instalação <b>[Opcional]</b>
+#### Após a instalação <b>[OPCIONAL]</b>
 
 > para remover o banco de dados de teste e quaisquer permissões de usuário estranhos adicionados durante o processo inicial de instalação, para configurar e melhorar a segurança do seu servidor MySQL
 
 ```bash
-$ sudo mysql_secure_installation
+sudo mysql_secure_installation
 ```
 
 Esta configuração, exibirá a opção **<mark>VALIDATE PASSWORD <u>COMPONENT</u></mark>** usada como validação de senhas fortes para usuários do MySQL. 
@@ -249,4 +253,4 @@ Query OK, 0 rows affected (0.02 sec)
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>

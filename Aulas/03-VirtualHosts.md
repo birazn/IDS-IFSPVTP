@@ -17,7 +17,7 @@ sudo mkdir /var/www/html/idss.local/logs
 #### Criamos agora um arquivo de chamada para ids
 
 ```shell
-sudo vim /etc/apache2/sites-available/idss.conf
+sudo vim /etc/apache2/sites-available/idss.local.conf
 ```
 
 #### Dentro deste arquivo colocamos a seguinte descrição
@@ -89,7 +89,7 @@ Para desabilitar o link simbólico usamos **a2dissite** <MARK>(**Não é necess�
 sudo a2dissite idss.local.conf # só execute, quando for necessario desabilitar
 ```
 
-Desativem o principal, caso queiram deixar apenas o *virtualhost*:
+Desativem o principal, **caso queiram deixar APENAS o *virtualhost*:**
 ```shell
 sudo a2dissite 000-default.conf # para que o virtualhost execute na página principal
 ```
