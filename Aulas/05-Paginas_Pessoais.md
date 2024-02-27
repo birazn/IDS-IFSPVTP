@@ -32,7 +32,7 @@ Portanto, para que cada usuário possa criar as suas páginas deve, antes de mai
 ### Criando o diretório, no usuário existente
 
 ```bash
-$ mkdir ~/public_html
+mkdir ~/public_html
 ```
 
 Uma vez criado o diretório, o usuário pode começar a criar conteúdos.
@@ -40,7 +40,7 @@ Uma vez criado o diretório, o usuário pode começar a criar conteúdos.
 Na pasta public_html crie um arquivo **index.html**
 
 ```bash
-$ vim ~/public_html/index.html
+vim ~/public_html/index.html
 ```
 
 Coloque o código para efetuar o teste.
@@ -111,4 +111,4 @@ Verificar se dentro da pasta do usuário, existe a **'public_html'** configurada
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>
