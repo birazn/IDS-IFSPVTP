@@ -49,7 +49,7 @@ Coloque o código para efetuar o teste.
 <!DOCTYPE html>
    <html lang="pt-br">
    <head>
-      <title>Bem Vindo ao IDS - Página Pessoal!</title>
+      <title>Bem Vindo ao IDSS - Página Pessoal!</title>
       <meta charset="UTF-8">
    </head>
    <body>
@@ -81,9 +81,33 @@ sudo chmod 0700 /etc/skel/public_html
 
 ```bash
 sudo adduser teste
+sudo ls /home/teste
 ```
 
 Verificar se dentro da pasta do usuário, existe a **'public_html'** configurada na **skel**
+
+## Refazendo as etapas, agora para usuário teste
+
+```bash
+su teste
+chmod 711 $HOME
+chmod -R 755 ~/public_html
+vim ~/public_html/index.html
+```
+
+```html
+<!DOCTYPE html>
+   <html lang="pt-br">
+   <head>
+      <title>Bem Vindo ao IDSS - Página Pessoal! Teste</title>
+      <meta charset="UTF-8">
+   </head>
+   <body>
+     <h1>Página pessoal do <u>Teste</u> – Olá Mundo</h1>
+    <p>Bem Vindo!</p>
+   </body>
+</html>
+```
 
 ---
 
