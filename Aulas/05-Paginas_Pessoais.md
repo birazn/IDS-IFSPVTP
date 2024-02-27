@@ -13,11 +13,17 @@ sudo systemctl restart apache2
 
 ### Ativar suporte ao PHP
 
-A execução de scripts php está desativada nas páginas pessoais. Para ativar, é necessário comentar a linha:
+A execução de *scripts* php está desativada nas páginas pessoais. 
 
-**php_admin_flag engine Off**
+```bash
+sudo vim /etc/apache2/mods-available/php8.1.conf
+```
 
 no arquivo <mark>/etc/apache2/mods-available/php8.1.conf</mark> (Verificar a versão do PHP instalado)
+
+Para ativar, é necessário comentar a linha:
+
+\# **php_admin_flag engine Off**
 
 ## A utilização
 
@@ -37,7 +43,7 @@ mkdir ~/public_html
 
 Uma vez criado o diretório, o usuário pode começar a criar conteúdos.
 
-Na pasta public_html crie um arquivo **index.html**
+Na pasta **public_html** crie um arquivo **index.html**
 
 ```bash
 vim ~/public_html/index.html
