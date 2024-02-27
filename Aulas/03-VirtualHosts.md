@@ -50,8 +50,8 @@ Coleque o "Listen 8081" abaixo do "Listen 80"
 ### Vamos conceder as permissões
 
 ```shell
-$ sudo chown -R $USER:$USER  /var/www/html/idss.local/public_html
-$ sudo chmod -R 755  /var/www/html/
+sudo chown -R $USER:$USER  /var/www/html/idss.local/public_html
+sudo chmod -R 755  /var/www/html/
 ```
 
 **<u>$USER → Variável de ambiente que representa nome do usuário logado</u>**
@@ -59,7 +59,7 @@ $ sudo chmod -R 755  /var/www/html/
 #### Criamos um arquivo de exemplo para ids
 
 ```shell
-$ sudo vim  /var/www/html/idss.local/public_html/index.html
+sudo vim  /var/www/html/idss.local/public_html/index.html
 ```
 
 #### Dentro deste arquivo colocamos a seguinte descrição
@@ -81,17 +81,17 @@ $ sudo vim  /var/www/html/idss.local/public_html/index.html
 Para criar e habilitar usamos **a2ensite**
 
 ```shell
-$ sudo a2ensite idss.local.conf # habilita nosso VirtualHost
+sudo a2ensite idss.local.conf # habilita nosso VirtualHost
 ```
 
 Para desabilitar o link simbólico usamos **a2dissite** <MARK>(**Não é necessário desabilitar os sites, a não ser que esteja desativando algum**)</MARK>
 ```shell
-$ sudo a2dissite idss.local.conf # só execute, quando for necessario desabilitar
+sudo a2dissite idss.local.conf # só execute, quando for necessario desabilitar
 ```
 
 Desativem o principal, caso queiram deixar apenas o *virtualhost*:
 ```shell
-$ sudo a2dissite 000-default.conf # para que o virtualhost execute na página principal
+sudo a2dissite 000-default.conf # para que o virtualhost execute na página principal
 ```
 
 
@@ -99,7 +99,7 @@ $ sudo a2dissite 000-default.conf # para que o virtualhost execute na página pr
 ### Restart o serviço apache2
 
 ```shell
-$ sudo service apache2 restart
+sudo service apache2 restart
 ```
 
 ### <u>Sempre que fizer uma mudança da configuração, não esqueça de reiniciar o serviço</u>
