@@ -19,9 +19,9 @@ A Microsoft possui a sua própria solução denominada **IIS** (Internet Informa
 Antes de qualquer instalação é aconselhável verificar por atualizações nos repositórios.
 
 ```shell
-$ sudo apt update
-$ sudo apt upgrade
-$ sudo apt install apache2
+sudo apt update
+sudo apt upgrade
+sudo apt install apache2
 ```
 
 ## Configurando Apache 2
@@ -29,7 +29,7 @@ $ sudo apt install apache2
 Para fazer configurações mais finas dentro do apache, o arquivo utilizado é:
 
 ```shell
-$ sudo vim /etc/apache2/apache2.conf
+sudo vim /etc/apache2/apache2.conf
 ```
 
 <p align="right">
@@ -54,4 +54,4 @@ $ sudo vim /etc/apache2/apache2.conf
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>
