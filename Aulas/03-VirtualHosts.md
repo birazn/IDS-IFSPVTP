@@ -10,14 +10,14 @@ Ele permite hospedar diversos sites, com domínios ou subdomínios diferentes us
 #### Vamos criar uma estrutura para receber nosso host virtual
 
 ```shell
-$ sudo mkdir -p /var/www/html/ids.local/public_html # -p cria a hierarquia
-$ sudo mkdir /var/www/html/ids.local/logs
+sudo mkdir -p /var/www/html/idss.local/public_html # -p cria a hierarquia
+sudo mkdir /var/www/html/idss.local/logs
 ```
 
 #### Criamos agora um arquivo de chamada para ids
 
 ```shell
-sudo vim /etc/apache2/sites-available/ids.local.conf
+sudo vim /etc/apache2/sites-available/idss.conf
 ```
 
 #### Dentro deste arquivo colocamos a seguinte descrição
@@ -25,11 +25,11 @@ sudo vim /etc/apache2/sites-available/ids.local.conf
 ```html
 <VirtualHost *:8081> 
     ServerAdmin webmaster@ids.local
-    ServerName ids.local
-    ServerAlias www.ids.local
-    DocumentRoot /var/www/html/ids.local/public_html/
-    ErrorLog /var/www/html/ids.local/logs/error.log
-    CustomLog /var/www/html/ids.local/logs/access.log combined
+    ServerName idss.local
+    ServerAlias www.idss.local
+    DocumentRoot /var/www/html/idss.local/public_html/
+    ErrorLog /var/www/html/idss.local/logs/error.log
+    CustomLog /var/www/html/idss.local/logs/access.log combined
 </VirtualHost>
 ```
 
@@ -50,7 +50,7 @@ Coleque o "Listen 8081" abaixo do "Listen 80"
 ### Vamos conceder as permissões
 
 ```shell
-$ sudo chown -R $USER:$USER  /var/www/html/ids.local/public_html
+$ sudo chown -R $USER:$USER  /var/www/html/idss.local/public_html
 $ sudo chmod -R 755  /var/www/html/
 ```
 
@@ -59,7 +59,7 @@ $ sudo chmod -R 755  /var/www/html/
 #### Criamos um arquivo de exemplo para ids
 
 ```shell
-$ sudo vim  /var/www/html/ids.local/public_html/index.html
+$ sudo vim  /var/www/html/idss.local/public_html/index.html
 ```
 
 #### Dentro deste arquivo colocamos a seguinte descrição
@@ -67,7 +67,7 @@ $ sudo vim  /var/www/html/ids.local/public_html/index.html
 ```html
 <html>
 	<head>
-		<title>Bem Vindo ao IDSS5 - 2023!</title>
+		<title>Bem Vindo ao IDSS5 - 2024!</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
@@ -81,12 +81,12 @@ $ sudo vim  /var/www/html/ids.local/public_html/index.html
 Para criar e habilitar usamos **a2ensite**
 
 ```shell
-$ sudo a2ensite ids.local.conf # habilita nosso VirtualHost
+$ sudo a2ensite idss.local.conf # habilita nosso VirtualHost
 ```
 
 Para desabilitar o link simbólico usamos **a2dissite** <MARK>(**Não é necessário desabilitar os sites, a não ser que esteja desativando algum**)</MARK>
 ```shell
-$ sudo a2dissite ids.local.conf # só execute, quando for necessario desabilitar
+$ sudo a2dissite idss.local.conf # só execute, quando for necessario desabilitar
 ```
 
 Desativem o principal, caso queiram deixar apenas o *virtualhost*:
@@ -126,4 +126,4 @@ $ sudo service apache2 restart
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>
