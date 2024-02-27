@@ -158,7 +158,7 @@ Inclua a lista de nomes do banco de dados que deseja ocultar, separados por | [p
 
 <hr>
 
-#### Após a instalação <b>[OPCIONAL]</b>
+## Após a instalação <b>[OPCIONAL]</b>
 
 > para remover o banco de dados de teste e quaisquer permissões de usuário estranhos adicionados durante o processo inicial de instalação, para configurar e melhorar a segurança do seu servidor MySQL
 
@@ -178,8 +178,7 @@ A <u>força da senha</u> será testada;
 - Remover banco de dados de teste **sim (Y)**;
 - recarregar privilégios agora **sim (Y)**.
 
-<hr>
-# Caso necessite desabilitar a validação.
+# Caso necessite DESABILITAR a validação.
 
 ## MySQL 5.7 version
 
