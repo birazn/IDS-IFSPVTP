@@ -89,7 +89,13 @@ host     all     all     192.168.1.0/24     scram-sha-256
 
 #### Abra o pgadmin4 ou software de preferência e faça a conexão usando as credenciais do servidor configurado.
 
-#### Não esqueçam de liberar a porta no grupo de segurança ou na configuração de rede da sua Instância, de acordo com a nuvem utilizada ou VM Local.
+#### Não esqueçam de reiniciar o serviço, liberar a porta no grupo de segurança ou na configuração de rede da sua Instância, de acordo com a nuvem utilizada ou VM Local.
+
+```bash
+sudo service postgresql restart
+```
+
+
 
 ---
 
