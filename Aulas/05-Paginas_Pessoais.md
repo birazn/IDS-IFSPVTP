@@ -25,6 +25,14 @@ Para ativar, é necessário comentar a linha:
 
 \# **php_admin_flag engine Off**
 
+
+
+**<mark>Não esqueça de reiniciar o servidor web</mark>**
+
+```bash
+sudo service apache2 restart
+```
+
 ## A utilização
 
 As páginas pessoais são acessíveis através de um endereço: 
@@ -123,8 +131,8 @@ vim ~/public_html/index.html
   <br>
   PostgreSQL
   </a>
-
 </p> 
+
 <p align="left">
 <a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
     <img src="../img/casa.png" width="35" />
