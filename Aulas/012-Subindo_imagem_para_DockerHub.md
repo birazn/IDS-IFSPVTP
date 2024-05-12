@@ -102,4 +102,4 @@ Verifique diretamente no site, se o repositório foi enviado, após isso todos p
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>

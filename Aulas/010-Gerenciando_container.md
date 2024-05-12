@@ -74,4 +74,4 @@ Aqui temos a pasta local sendo mapeada para dentro do *container* em execução 
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>

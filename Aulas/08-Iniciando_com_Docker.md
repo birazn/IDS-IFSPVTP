@@ -234,4 +234,4 @@ docker container rm [CONTAINER ID]
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>

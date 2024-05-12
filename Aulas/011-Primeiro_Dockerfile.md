@@ -95,4 +95,4 @@ docker container run --name MeuServidor -d serverweb:1.0
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/birazn-social.png" width="250"/>
+<img src="../img/social.png" width="250"/>
