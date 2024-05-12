@@ -53,11 +53,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```bash
 sudo usermod -aG docker $USER
 ```
-
-### Efetivar alteração [Ou restart session]
-```bash
-newgrp docker
-```
+***Reinicie a sessão para efetivar mudança***
 
 ### Verificar versão
 ```bash
@@ -71,7 +67,7 @@ docker run hello-world
 
 ### Testar algo mais funcional
 ```bash
-docker container run -it ubuntu /bin/bash
+docker container run -it alpine sh
 ```
 
 
@@ -86,7 +82,7 @@ docker container run -it ubuntu /bin/bash
   <br>
   Gerenciando Container
   </a>
-  
+
 </p> 
 <p align="left">
 <a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
