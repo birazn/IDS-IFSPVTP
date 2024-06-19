@@ -39,7 +39,7 @@ Abra o arquivo para configurar que portas o apache esta escutando
 sudo vim /etc/apache2/ports.conf
 ```
 
-Coleque o "Listen 8081" abaixo do "Listen 80"
+Coloque o "Listen 8081" abaixo do "Listen 80"
 
 ### Salvar e fechar este arquivo
 
