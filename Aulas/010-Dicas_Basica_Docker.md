@@ -1,10 +1,10 @@
+
 <img align="left" src="../img/docker.png" width="200" />
+<br>
 
 # Dicas Básicas sobre Docker 
 - **Nível: Intermediário**
 - **Tipo de Conteúdo: Prático, Teórico**
-
-------
 
 ## Criando Instância e configurando
 
