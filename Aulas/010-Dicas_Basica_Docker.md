@@ -41,6 +41,7 @@ docker container ls
 ## A linha de comando Docker CLI segue uma dinâmica após a última atualização.
 
 **docker {objeto} {ação} {parâmetros}**
+
 **docker {container | image | network | volume | ...} {run | ls | inspect | rm | create | ...}**
 
 ```bash
@@ -67,15 +68,10 @@ docker container run -it ubuntu
 > [!TIP]
 >
 > #### docker container **attach** [CONTAINER ID] 
->
 > #### docker container **rm** [CONTAINER ID]
->
 > #### docker container [**start/stop/restart**] [CONTAINER ID]
 > #### docker container **inspect** [CONTAINER ID]
->
-> #### docker container **pause** [CONTAINER ID
->
+> #### docker container **pause** [CONTAINER ID]
 > #### docker container **unpause** [CONTAINER ID]
->
 > #### docker container **stats** [CONTAINER ID]
-
+>
