@@ -1,4 +1,4 @@
-<img src="/home/birazn/Dropbox/IFSP-Votuporanga/Aulas/Superior/BSI/IDSS5/IDS-IFSPVTP/img/docker.png" align="left" alt="docker" style="zoom:25%;" />
+<img align="left" src="../img/docker.png" width="200" />
 
 # Dicas Básicas sobre Docker 
 - **Nível: Intermediário**
