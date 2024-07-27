@@ -1,8 +1,4 @@
-
-<img align="left" src="../img/docker.png" width="200" />
-<br>
-
-# Dicas Básicas sobre Docker 
+# Dicas Básicas sobre Docker <img align="left" src="../img/docker.png" width="200" />
 - **Nível: Intermediário**
 - **Tipo de Conteúdo: Prático, Teórico**
 
