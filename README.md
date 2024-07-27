@@ -20,7 +20,7 @@ Instagram: [@birazn](https://www.instagram.com/birazn)
 ## Iniciando com Docker - Conceitos básicos
 - [Docker básico](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/08-Iniciando_com_Docker.md)
 - [Docker no Linux Mint](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/09-Docker_LinuxMint_21.md)
-- [Dicas Basicas](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/010-Dicas_Basica_Docker.md)
+- [Dicas Basicas sobre Docker](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/010-Dicas_Basica_Docker.md)
 - [Gerenciando Container](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/010-Gerenciando_container.md)
 - [Primeiro Dockerfile](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/011-Primeiro_Dockerfile.md)
 - [Subindo imagem Docker hub](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/012-Subindo_imagem_para_DockerHub.md)
