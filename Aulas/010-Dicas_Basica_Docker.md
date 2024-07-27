@@ -2,6 +2,8 @@
 - **Nível: Intermediário**
 - **Tipo de Conteúdo: Prático, Teórico**
 
+
+<br>
 ## Criando Instância e configurando
 
 
