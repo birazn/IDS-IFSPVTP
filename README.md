@@ -33,4 +33,4 @@ Instagram: [@birazn](https://www.instagram.com/birazn)
 
 [@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)\
-![](img/socialp.png)
+![bg right:35%](img/socialp.png)
