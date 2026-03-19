@@ -1,4 +1,6 @@
-# Dicas Básicas sobre Docker <img align="left" src="../img/docker.png" width="100" />
+# Dicas Básicas sobre Docker
+
+<img align="left" src="../img/docker.png" width="100" />
 
 <br>
 

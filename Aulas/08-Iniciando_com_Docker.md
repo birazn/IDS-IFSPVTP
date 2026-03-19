@@ -1,4 +1,6 @@
-# Iniciando com Docker <img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
+# Iniciando com Docker
+
+<img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
  
  <img align="center" src="../img/docker.png" width="200" />
 

@@ -1,6 +1,7 @@
-# Instalando e Configurando LAMP <img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
+# Instalando e Configurando LAMP
 
-<br>
+<img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
+
 <br>
 
 <div align="center"><img src="../img/LAMP-Stack-logo.png" width="300" /></div>

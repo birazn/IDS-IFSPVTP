@@ -1,4 +1,6 @@
-# Instalando Docker Linux Mint 21 <img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
+# Instalando Docker Linux Mint 21
+
+<img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
 
 <br>
 

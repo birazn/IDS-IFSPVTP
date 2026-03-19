@@ -1,4 +1,6 @@
-# Subindo imagem para Docker Hub <img align="right" src="../img/vtp_ifsp-pb.png" width="250">
+# Subindo imagem para Docker Hub
+
+<img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
 
 Para enviarmos uma imagem pronta para o docker hub é necessário, alem de todos os procedimentos para geração, "*build*", da imagem, ter uma conta criada.
 
