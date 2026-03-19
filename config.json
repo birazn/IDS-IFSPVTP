@@ -6,11 +6,11 @@
   "nav": {
     "logo":"⚒️",
     "links": [
-      { "href": "README.md", "name": "HOME" },
+      { "href": "README.md", "name": "Home" },
       {
-        "name": "Docs",
+        "name": "Aulas",
         "links": [
-          { "href": "/docs/getting-started", "name": "Getting Started" },
+          { "href": "Aulas/03-VirtualHosts", "name": "Virtual Hosts" },
           { "href": "/docs/config", "name": "Configuration" },
           { "href": "/docs/themes", "name": "Themes" }
         ]
