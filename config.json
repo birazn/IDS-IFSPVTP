@@ -6,7 +6,15 @@
   "nav": {
     "logo":"⚒️",
     "links": [
-      { "href": "README.md", "name": "HOME" }
+      { "href": "README.md", "name": "HOME" },
+      {
+        "name": "Docs",
+        "links": [
+          { "href": "/docs/getting-started", "name": "Getting Started" },
+          { "href": "/docs/config", "name": "Configuration" },
+          { "href": "/docs/themes", "name": "Themes" }
+        ]
+      },
     ],
 
     "social": [
