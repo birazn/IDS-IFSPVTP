@@ -10,8 +10,15 @@
       {
         "name": "Aulas",
         "links": [
+          { "href": "Aulas/01-Editor_Texto", "name": "Editor de Texto" },
+          { "href": "Aulas/02-ServidorWeb", "name": "Servidor Web" },
           { "href": "Aulas/03-VirtualHosts", "name": "Virtual Hosts" },
-          { "href": "/docs/config", "name": "Configuration" },
+          { "href": "Aulas/04-Paginas_Pessoais", "name": "Páginas pessoais" },
+          { "href": "Aulas/05-Paginas_Pessoais", "name": "Páginas pessoais" },
+          { "href": "Aulas/05-Paginas_Pessoais", "name": "Páginas pessoais" },
+          { "href": "Aulas/05-Paginas_Pessoais", "name": "Páginas pessoais" },
+          { "href": "Aulas/05-Paginas_Pessoais", "name": "Páginas pessoais" },
+          { "href": "Aulas/05-Paginas_Pessoais", "name": "Páginas pessoais" },
           { "href": "/docs/themes", "name": "Themes" }
         ]
       }
