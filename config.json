@@ -1,12 +1,25 @@
 
 {
   "theme": "superstack",
-  "showSidebar": false,
+  "showSidebar": true,
 
   "nav": {
     "logo":"⚒️",
     "links": [
       { "href": "", "name": "" }
+    ],
+
+    "social": [
+      {
+        "label": "github",
+        "name": "GitHub Profile",
+        "href": "https://github.com/birazn"
+      },
+      {
+        "label": "intagram",
+        "name": "Follow me on Instagram",
+        "href": "https://instagram.com/birazn"
+      }
     ]
   }
 }
