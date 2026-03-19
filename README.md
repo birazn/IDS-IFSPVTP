@@ -27,15 +27,10 @@ Instagram: [@birazn](https://www.instagram.com/birazn)
 - [Subindo imagem Docker hub](https://github.com/birazn/IDS-IFSPVTP/blob/master/Aulas/012-Subindo_imagem_para_DockerHub.md)
 - [Docker compose - exemplo](https://github.com/birazn/compose-exemplo)
 
-
-
-
 ---
 
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
-
 [Canal YouTube](https://www.youtube.com/birazn)
-
-<img src="img/social.png" width="250" />
+<img src="img/social.png" width="150" />
