@@ -1,5 +1,5 @@
 
-# Editor de Texto - Configuração ![logoIF](../img/vtp_ifsp-pb.png)
+# Editor de Texto - Configuração ![logoIF ](../img/vtp_ifsp-pb.png)
 
 ![VIM right:35% w:150px](../img/vim.png)
 
