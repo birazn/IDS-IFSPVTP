@@ -1,6 +1,6 @@
 # Apache - VirtualHosts
 
-<img src="../img/vtp_ifsp-pb.png" width="150px"/>
+<img src="../img/vtp_ifsp-pb.png" />
 
 ![](../img/virtual_hosts_diagram.jpg)
 
