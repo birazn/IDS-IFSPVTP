@@ -1,8 +1,5 @@
 # Apache - VirtualHosts
-![](../img/vtp_ifsp-pb.png)
-
----
-
+<img src="../img/vtp_ifsp-pb.png" width="250px"/>
 ![](../img/virtual_hosts_diagram.jpg)
 
 O suporte a virtual hosts é um daqueles recursos fundamentais, que possibilitaram o surgimento da Internet da forma como a conhecemos hoje.
