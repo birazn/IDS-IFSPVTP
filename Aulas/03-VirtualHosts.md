@@ -1,6 +1,5 @@
 # Apache - VirtualHosts
 
-![LogoIF](../img/vtp_ifsp-pb.png)
 
 ![](../img/virtual_hosts_diagram.jpg)
 
@@ -24,7 +23,7 @@ sudo vim /etc/apache2/sites-available/idss.local.conf
 
 ```html
 <VirtualHost *:8081> 
-    ServerAdmin webmaster@ids.local
+  ServerAdmin webmaster@ids.local
     ServerName idss.local
     ServerAlias www.idss.local
     DocumentRoot /var/www/html/idss.local/public_html/
@@ -66,12 +65,12 @@ sudo vim  /var/www/html/idss.local/public_html/index.html
 
 ```html
 <html>
-	<head>
-		<title>Bem Vindo ao IDSS5 - 2024!</title>
+  <head>
+    <title>Bem Vindo ao IDSS5 - 2024!</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h1>Parabéns!  O seu virtual host está funcionando!</h1>
+    <h1>Parabéns!  O seu virtual host está funcionando!</h1>
 	</body>
 </html>
 ```
@@ -120,10 +119,10 @@ sudo service apache2 restart
 </p>
 
 ---
-## Dúvidas?
+![LogoIF](../img/vtp_ifsp-pb.png)
+# Dúvidas?
 
-[@birazn](https://www.instagram.com/birazn)
-
+[@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/social.png" width="250"/>
+<img style="text-align: left" src="img/socialp.png" />
