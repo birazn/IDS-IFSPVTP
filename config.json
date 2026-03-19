@@ -1,11 +1,11 @@
 
 {
-  "theme": "lessflowery",
+  "theme": "superstack",
   "showSidebar": false,
 
   "nav": {
     "links": [
-      { "href": "/Aulas", "name": "Aulas" }
+      { "href": "Aulas", "name": "Aulas" }
     ]
   }
 }
