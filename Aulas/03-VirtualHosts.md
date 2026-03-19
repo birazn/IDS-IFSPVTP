@@ -119,7 +119,8 @@ sudo service apache2 restart
 </p>
 
 ---
-# Dúvidas? \ ![LogoIF](../img/vtp_ifsp-pb.png)
+# Dúvidas?
+![LogoIF](../img/vtp_ifsp-pb.png)
 
 [@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
