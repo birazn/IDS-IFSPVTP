@@ -1,6 +1,6 @@
 
 # Editor de Texto - Configuração 
-![](../img/vtp_ifsp-pb.png)
+![left:10](../img/vtp_ifsp-pb.png)
 
 ![VIM right:35% w:150px](../img/vim.png)
 
