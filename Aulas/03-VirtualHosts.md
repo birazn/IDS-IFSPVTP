@@ -125,4 +125,4 @@ sudo service apache2 restart
 [@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img style="text-align: left" src="img/socialp.png" />
+<img style="text-align: left" src="../img/socialp.png" />
