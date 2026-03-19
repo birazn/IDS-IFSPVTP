@@ -1,5 +1,6 @@
+<img src="img/vtp_ifsp-pb.png" width="30%">
 
-![](img/vtp_ifsp-pb.png)
+
 
 # Implantação de Servidores [old]
 Repositório focado em disponibilizar materiais sobre a disciplina de Implantação para os Cursos Analise e Desenvolvimento de Sistemas **(descontinuado)** e Bacharel em Sistemas de Informação do Instituto Federal de São Paulo, Campus Votuporanga.
