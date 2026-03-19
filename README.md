@@ -34,5 +34,5 @@ Instagram: [@birazn](https://www.instagram.com/birazn)
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)\
-[Canal YouTube](https://www.youtube.com/birazn)\
+[Canal YouTube](https://www.youtube.com/birazn)
 <img style="text-align: left" src="img/socialp.png" />
