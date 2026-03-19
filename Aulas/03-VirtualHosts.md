@@ -1,6 +1,7 @@
 # Apache - VirtualHosts
-
 ![](../img/vtp_ifsp-pb.png)
+
+---
 
 ![](../img/virtual_hosts_diagram.jpg)
 
