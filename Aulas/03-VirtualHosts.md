@@ -119,7 +119,7 @@ sudo service apache2 restart
 </p>
 
 ---
-![LogoIF](../img/vtp_ifsp-pb.png)
+![bg right:35% w:200](../img/vtp_ifsp-pb.png)
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)\
