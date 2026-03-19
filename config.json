@@ -4,6 +4,7 @@
   "showSidebar": false,
 
   "nav": {
+    "logo":"⚒️",
     "links": [
       { "href": "", "name": "" }
     ]
