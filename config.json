@@ -1,7 +1,7 @@
 
 {
   "theme": "superstack",
-  "showSidebar": true,
+  "showSidebar": false,
 
   "nav": {
     "logo":"⚒️",
