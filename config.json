@@ -1,8 +1,11 @@
 
 {
-  "theme": "lessflowery"
-}
+  "theme": "lessflowery",
+  "showSidebar": false,
 
-{
-  "showSidebar": false
+  "nav": {
+    "links": [
+      { "href": "/Aulas", "name": "Aulas" }
+    ]
+  }
 }
