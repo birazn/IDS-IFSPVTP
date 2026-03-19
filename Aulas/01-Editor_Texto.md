@@ -2,7 +2,7 @@
 # Editor de Texto - Configuração 
 ![left:10](../img/vtp_ifsp-pb.png)
 
-![VIM right:35% w:150px](../img/vim.png)
+![bg right:35% w:150px](../img/vim.png)
 
 Vim, é uma opção ao editor em modo texto nano que tem as bases do Vi com algumas atualizações.
 

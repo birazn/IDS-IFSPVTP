@@ -1,4 +1,5 @@
-# Apache - VirtualHosts <img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
+# Apache - VirtualHosts
+<img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
 <br>
 <img align="center" src="../img/virtual_hosts_diagram.jpg" width="70%"/>
 
