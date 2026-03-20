@@ -2,8 +2,6 @@
 
 ## Habilitando a Navegação
 
-<img align="right" src="../img/vtp_ifsp-pb.png" />
-
 ![CloudWord](../img/serverweb.png)
 
 ## O que é?
@@ -45,4 +43,4 @@ sudo vim /etc/apache2/apache2.conf
 [@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
 
-![Social](../img/socialp.png)
+image:../img/socialp.png
