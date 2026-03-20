@@ -9,3 +9,6 @@ text-align: left;
 body{
     text-align: justify;
 }
+code{
+    font-size: 12px;
+}
