@@ -4,7 +4,7 @@
 
   "nav": {
     "logo":"⚒️",
-    "Title": "VTPISRV - IFSP",
+    "title": "VTPISRV - IFSP",
     "links": [
       { "href": "README.md", "name": "Home" },
       {
