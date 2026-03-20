@@ -33,19 +33,14 @@ Para fazer configurações mais finas dentro do apache, o arquivo utilizado é:
 ```shell
 sudo vim /etc/apache2/apache2.conf
 ```
-|    |   |    |
-|:---|---|---:|
-|[🏠 Sumário](../README.md)|  |[Virtual Hosts ➡️](03-VirtualHosts.md)|
 
-
-<div align="left">
+|                            |  |                                       |
+|:---------------------------|--|--------------------------------------:|
+| [🏠 Sumário](../README.md) |  | [Virtual Hosts ➡️](03-VirtualHosts.md)|
 
 ## Dúvidas?
 
-[@birazn](https://www.instagram.com/birazn)
-
+[@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
 
-![](../img/socialp.png)
-
-</div>
+![Social](../img/socialp.png)
