@@ -48,4 +48,4 @@ sudo vim /etc/apache2/apache2.conf
 >[@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
 
-[Social](../img/socialp.png)
+![Social](../img/socialp.png)
