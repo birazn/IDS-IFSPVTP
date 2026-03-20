@@ -1,8 +1,8 @@
 ---
 title: Servidor Web
+avatar: ../img/hacker.png
 authors:
   - Ubiratan Nascimento
-avatar: ../img/hacker.png
 description: Professor de Tecnologia no IFSP
 ---
 # Servidor Web
@@ -46,8 +46,7 @@ sudo vim /etc/apache2/apache2.conf
 |🏠 [Sumário](../README.md)  |  |➡️ [Virtual Hosts](03-VirtualHosts.md) |
 
 ## Dúvidas?
-{% callout type="check" %}
-[@birazn](https://www.instagram.com/birazn)\
+>[@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
-{% /callout %}
+
 [Social](../img/socialp.png)
