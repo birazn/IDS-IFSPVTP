@@ -1,8 +1,3 @@
----
-title: Servidor Web
-authors:
-  - 👨🏼‍💻 Ubiratan Nascimento
----
 # Servidor Web
 
 ## Habilitando a Navegação
