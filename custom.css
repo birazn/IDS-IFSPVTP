@@ -1,3 +1,7 @@
-h1, h4 {
-    color: #d30c7b !important;  /* Pink */
+h1, h5 {
+    color: #03940f !important;  /* Pink */
+}
+img {
+display: block;
+float: left;
 }
