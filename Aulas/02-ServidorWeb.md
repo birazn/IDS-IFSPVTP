@@ -3,7 +3,6 @@ title: Servidor Web
 avatar: ../img/hacker.png
 authors:
   - Ubiratan Nascimento
-description: Professor de Tecnologia no IFSP
 ---
 # Servidor Web
 
