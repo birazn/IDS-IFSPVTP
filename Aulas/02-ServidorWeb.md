@@ -34,8 +34,8 @@ Para fazer configurações mais finas dentro do apache, o arquivo utilizado é:
 sudo vim /etc/apache2/apache2.conf
 ```
 
-|   |   |   |
-|---|---|---|
+|    |   |    |
+|:---|---|---:|
 |[🏠 Sumário](../README.md)|  |[Virtual Hosts ➡️](03-VirtualHosts.md)|
 
 ---
