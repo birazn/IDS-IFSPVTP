@@ -1,6 +1,6 @@
 ---
 title: Servidor Web
-avatar: ../img/hacker.png
+avatar: "[[../img/hacker.png]]"
 authors:
   - Ubiratan Nascimento
 ---
