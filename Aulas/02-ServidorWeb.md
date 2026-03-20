@@ -34,26 +34,17 @@ Para fazer configurações mais finas dentro do apache, o arquivo utilizado é:
 sudo vim /etc/apache2/apache2.conf
 ```
 
-<p align="right">
-<a href="03-VirtualHosts.md">
-     <img title="Virtual Hosts" src="../img/seta-para-frente.png" width="35" />
-  <br>
-  Virtual Hosts
-  </a>
-</p> 
-<p align="left">
-<a href="https://github.com/birazn/IDS-IFSPVTP#sumário">
-    <img src="../img/casa.png" width="35" />
-  <br>
-  Sumário
-</a>
-</p>
+|[🏠 Sumário](../README.md)|  |[Virtual Hosts ➡️](03-VirtualHosts.md)|
 
 ---
+<div align="left">
+
 ## Dúvidas?
 
 [@birazn](https://www.instagram.com/birazn)
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-<img src="../img/social.png" width="250"/>
+![](../img/social.png)
+
+</div>
