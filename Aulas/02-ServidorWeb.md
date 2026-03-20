@@ -44,7 +44,7 @@ sudo vim /etc/apache2/apache2.conf
 |🏠 [Sumário](../README.md)  |  |➡️ [Virtual Hosts](03-VirtualHosts.md) |
 
 ## Dúvidas?
->[@birazn](https://www.instagram.com/birazn)\
+[@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
 
 ![Social](../img/socialp.png)
