@@ -83,14 +83,15 @@ Para criar e habilitar usamos **a2ensite**
 sudo a2ensite idss.local.conf # habilita nosso VirtualHost
 ```
 
-Para desabilitar o link simbólico usamos **a2dissite** <MARK>(**Não é necessário desabilitar os sites, a não ser que esteja desativando algum**)</MARK>
+Para desabilitar o link simbólico usamos **a2dissite** 
+<MARK>(**Não é necessário desabilitar os sites, a não ser que esteja desativando algum**)</MARK>
 ```shell
-sudo a2dissite idss.local.conf # só execute, quando for necessario desabilitar
+sudo a2dissite idss.local.conf # só execute, se for necessario desabilitar
 ```
 
 Desativem o principal, **caso queiram deixar APENAS o *virtualhost*:**
 ```shell
-sudo a2dissite 000-default.conf # para que o virtualhost execute na página principal
+sudo a2dissite 000-default.conf # para o virtualhost executar na página principal
 ```
 
 
