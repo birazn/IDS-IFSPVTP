@@ -1,3 +1,9 @@
+---
+title: Servidor Web
+authors:
+  - 🧔🏼‍♂️ Ubiratan Nascimento
+  - in IFSP
+---
 # Servidor Web
 
 ## Habilitando a Navegação
