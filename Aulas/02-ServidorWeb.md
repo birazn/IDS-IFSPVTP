@@ -43,4 +43,4 @@ sudo vim /etc/apache2/apache2.conf
 [@birazn](https://www.instagram.com/birazn)\
 [Canal YouTube](https://www.youtube.com/birazn)
 
-image:../img/socialp.png
+image: ../img/socialp.png
