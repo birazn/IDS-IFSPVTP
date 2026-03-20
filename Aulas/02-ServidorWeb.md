@@ -6,7 +6,7 @@
 
 ![CloudWord](../img/serverweb.png)
 
-# O que é?
+## O que é?
 
 Servidor web pode ser um programa de computador responsável por aceitar pedidos HTTP de clientes, geralmente os navegadores, e servi-los com respostas HTTP, incluindo opcionalmente dados, que geralmente são páginas web, tais como documentos HTML com objetos multimídias embutidos.
 
@@ -16,7 +16,7 @@ A Microsoft possui a sua própria solução denominada **IIS** (Internet Informa
 
 ![Apache](../img/apache-logo-3.png)
 
-## Instalando e Configurando Apache 2
+## Instalando Apache 2
 
 #### O Servidor Apache ou Servidor HTTP Apache.
 
