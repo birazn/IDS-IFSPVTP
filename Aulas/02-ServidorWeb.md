@@ -1,8 +1,8 @@
 # Servidor Web – Habilitando a Navegação 
 
-<img align="right" src="../img/vtp_ifsp-pb.png" width="250" />
+<img align="right" src="../img/vtp_ifsp-pb.png" />
 
-<img src="../img/serverweb.png" width="50%" />
+<img src="../img/serverweb.png" />
 
 # O que é?
 

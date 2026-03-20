@@ -10,7 +10,8 @@ h6 {
   text-align: left !important;
 }
 img {
-  display: block;
+  display: flex;
+  align-items: center;
   text-align: left;
 }
 
