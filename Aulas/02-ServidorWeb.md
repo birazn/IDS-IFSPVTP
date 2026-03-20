@@ -1,8 +1,10 @@
-# Servidor Web – Habilitando a Navegação 
+# Servidor Web
+
+## Habilitando a Navegação
 
 <img align="right" src="../img/vtp_ifsp-pb.png" />
 
-<img src="../img/serverweb.png" />
+![CloudWord](../img/serverweb.png)
 
 # O que é?
 
@@ -12,7 +14,7 @@ O mais popular, e mais utilizado no mundo, é o servidor **Apache** (software li
 
 A Microsoft possui a sua própria solução denominada **IIS** (Internet Information Services).
 
-<img src="../img/apache-logo-3.png" width="30%"/>
+![Apache](../img/apache-logo-3.png)
 
 ## Instalando e Configurando Apache 2
 
@@ -26,7 +28,7 @@ sudo apt upgrade
 sudo apt install apache2
 ```
 
-## Configurando Apache 2
+## Configurações adicionais Apache 2
 
 Para fazer configurações mais finas dentro do apache, o arquivo utilizado é:
 
