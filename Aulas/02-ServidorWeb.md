@@ -1,8 +1,9 @@
 ---
 title: Servidor Web
 authors:
-  - 🧔🏼‍♂️ Ubiratan Nascimento
-  - in IFSP
+  - Ubiratan Nascimento
+avatar: ../img/hacker.png
+description: Professor de Tecnologia no IFSP
 ---
 # Servidor Web
 
