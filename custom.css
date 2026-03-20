@@ -2,6 +2,6 @@ h1, h5 {
     color: #03940f !important;  /* Pink */
 }
 img {
-display: block;
+display: flex;
 float: left;
 }
