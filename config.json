@@ -32,8 +32,13 @@
       },
       {
         "label": "instagram",
-        "name": "Follow me on Instagram",
+        "name": "Me siga no Instagram",
         "href": "https://instagram.com/birazn"
+      }
+      {
+        "label": "youtube",
+        "name": "Se inscreva no YouTube",
+        "href": "https://www.youtube.com/birazn"
       }
     ]
   }
