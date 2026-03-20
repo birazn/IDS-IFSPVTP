@@ -46,6 +46,6 @@ sudo vim /etc/apache2/apache2.conf
 
 [Canal YouTube](https://www.youtube.com/birazn)
 
-![](../img/social.png)
+![](../img/socialp.png)
 
 </div>
