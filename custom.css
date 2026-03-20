@@ -10,5 +10,5 @@ body{
     text-align: justify;
 }
 pre{
-    font-size: 12px;
+    font-size: 12px !important;
 }
